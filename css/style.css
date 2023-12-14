@@ -5,27 +5,46 @@
 
 main{
     position: relative;
-    border: 1px solid black;
 }
 #alta{
     position: relative;
     left:0;
 
     width: fit-content;
-    height: 45vh;
-    border: 1px solid red;
+    height: 40vh;
+
+    animation: slide-in-from-left 2.5s forwards;
 }
 
 #e{
     width: fit-content;
-    height: 25vh;
+    height: 20vh;
 }
 
 #baixa{
     position:absolute;
-    top:4vh;
+    top: 39vh;
     right:0;
 
     width: fit-content;
-    height: 50vh;
+    height: 61vh;
 }
+
+@keyframes slide-in-from-left {
+    0% { 
+        transform: translate(-100%); 
+    }
+    100% {
+         transform: translateX(0%); 
+        }
+  }
+
+  @keyframes slide-in-from-right {
+    0% { 
+        transform: translate(0%); 
+    }
+    100% {
+         transform: translateX(100%); 
+        }
+  }
+
