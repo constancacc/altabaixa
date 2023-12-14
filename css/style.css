@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    position: relative;
+    border: 1px solid black;
+}
+#alta{
+    position: relative;
+    left:0;
+
+    width: fit-content;
+    height: 45vh;
+    border: 1px solid red;
+}
+
+#e{
+    width: fit-content;
+    height: 25vh;
+}
+
+#baixa{
+    position:absolute;
+    top:4vh;
+    right:0;
+
+    width: fit-content;
+    height: 50vh;
+}
