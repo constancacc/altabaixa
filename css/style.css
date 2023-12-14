@@ -6,9 +6,11 @@
 main{
     position: relative;
 }
+/*-----------------------------ecrã inicial-----------------------------*/
 #alta{
     position: relative;
     left:0;
+    top:0;
 
     width: 38vw;
     height: auto;
@@ -34,6 +36,7 @@ main{
     animation: slide-in-from-right 2.5s forwards;
 }
 
+/*------------------------animações----------------------------*/
 @keyframes slide-in-from-left {
     0% { 
         transform: translateX(-100%); 
@@ -60,4 +63,63 @@ main{
          transform: translateY(0%); 
         }
   }
+
+/*-------------------------linhas-----------------------------*/
+  .row {
+
+    height: 100vh;
+
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+  }
+
+  /*-----------------------artigo 1----------------------*/
+ 
+  .artigo1{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: 'Source Sans 3', sans-serif;
+
+  }
+
+  .titulo{
+   
+    margin-top: 10vh;
+
+    width: 85vw;
+    height: auto;
+
+  }
+
+  .by{
+    font-size: 2rem;
+    font-style: italic;
+
+    margin-right: 0.5vw;
+  }
+
+  .autor{
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: lighter;
+    
+  }
+
+.texto{
+    width: 50vw;
+
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 
