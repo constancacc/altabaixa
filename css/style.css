@@ -10,29 +10,33 @@ main{
     position: relative;
     left:0;
 
-    width: fit-content;
-    height: 40vh;
+    width: 38vw;
+    height: auto;
 
     animation: slide-in-from-left 2.5s forwards;
 }
 
 #e{
-    width: fit-content;
-    height: 20vh;
+    width: 8.5vw;
+    height: auto;
+
+    animation: slide-in-from-top 2.5s forwards;
 }
 
 #baixa{
     position:absolute;
-    top: 39vh;
+    top: 38vh;
     right:0;
 
-    width: fit-content;
-    height: 61vh;
+    width: 72.5vw;
+    height: auto;
+    
+    animation: slide-in-from-right 2.5s forwards;
 }
 
 @keyframes slide-in-from-left {
     0% { 
-        transform: translate(-100%); 
+        transform: translateX(-100%); 
     }
     100% {
          transform: translateX(0%); 
@@ -41,10 +45,19 @@ main{
 
   @keyframes slide-in-from-right {
     0% { 
-        transform: translate(0%); 
+        transform: translateX(100%); 
     }
     100% {
-         transform: translateX(100%); 
+         transform: translateX(0%); 
+        }
+  }
+
+  @keyframes slide-in-from-top {
+    0% { 
+        transform: translateY(-100vh); 
+    }
+    100% {
+         transform: translateY(0%); 
         }
   }
 
