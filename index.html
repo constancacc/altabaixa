@@ -1,153 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-<!--- Ícone no cimo da página e titulo do websit
+    <!--- Ícone no cimo da página e titulo do websit
   <link rel="shortcut icon" type="image/x-icon" href="img/logo.svg" />-->
-  <title>Alta&Baixa</title>
-  <link rel="icon" type="image/x-icon" href="img/AB.svg">
+    <title>Alta&Baixa</title>
+    <link rel="icon" type="image/x-icon" href="img/AB.svg">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsividade -->
- 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsividade -->
 
-  <!-- Aceder ao CSS-->
-  <link href="css/style.css" rel="stylesheet">
+    <!-- Aceder ao CSS-->
+    <link href="css/style.css" rel="stylesheet">
 
-  
-<!--Fontes-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> <!--Adecer à Montserrat-->
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap" rel="stylesheet"> <!--Adecer à Source Sans 3 semibold-->
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet"><!--Adecer à Source Sans 3 regular-->
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@1,300&display=swap" rel="stylesheet"><!--Aceder Source Sans 3 itálico-->
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap" rel="stylesheet"><!--Aceder Source Sans 3 bold-->
+
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> <!--Adecer à Montserrat-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@900&family=Montserrat:wght@700&display=swap"
+        rel="stylesheet">
+    <!--Aceder à Montserrat bold-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@900&family=Montserrat:wght@600;700&display=swap"
+        rel="stylesheet">
+    <!--Aceder à Montserrat semibold-->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap" rel="stylesheet">
+    <!--Adecer à Source Sans 3 semibold-->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet">
+    <!--Adecer à Source Sans 3 regular-->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!--Aceder Source Sans 3 itálico-->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap" rel="stylesheet">
+    <!--Aceder Source Sans 3 bold-->
 </head>
 
 <body>
 
-    <nav class="navbar hidden"> 
-        <img src="img/AB.svg" style="margin-top: 1vh;"> 
+    <nav class="navbar hidden">
+        <img src="img/AB.svg" style="margin-top: 1vh;">
     </nav>
 
     <main>
         <div class="container">
             <div class="row">
-        <!-- Alta -->
-        <svg id="alta" viewBox="0 0 729 407" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 0V201.671H56.3746V88.1557H104.867V201.695H146.399V0H0ZM104.891 72.9659H56.3866V24.4617H104.891V72.9659Z" fill="black"/>
-            <path d="M160.594 96.038H200.785V240.676H301.531V266.396H160.594V96.038Z" fill="black"/>
-            <path d="M518.14 126.777H405.451H327.586H214.885V188.123H327.586V317.32H405.451V188.123H518.14V126.777Z" fill="black"/>
-            <path d="M663.473 202.87H420.844V406.578H451.619V306.395H663.473V406.59H729V202.87H663.473ZM501.393 268.289H455.441V222.324H501.393V268.289Z" fill="black"/>
-            <path d="M0 0V201.671H56.3746V88.1557H104.867V201.695H146.399V0H0ZM104.891 72.9659H56.3866V24.4617H104.891V72.9659Z" fill="black"/>
-            <path d="M160.594 96.038H200.785V240.676H301.531V266.396H160.594V96.038Z" fill="black"/>
-            <path d="M518.14 126.777H405.451H327.586H214.885V188.123H327.586V317.32H405.451V188.123H518.14V126.777Z" fill="black"/>
-            <path d="M663.473 202.87H420.844V406.578H451.619V306.395H663.473V406.59H729V202.87H663.473ZM501.393 268.289H455.441V222.324H501.393V268.289Z" fill="black"/>
-        </svg>
-        <!--&-->
-        <svg id="e" viewBox="0 0 156 194" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M58.935 191.77C48.499 191.948 38.1464 189.959 28.5204 185.897C20.2407 182.466 13.0213 176.89 7.60074 169.742C2.46611 162.642 -0.202455 154.052 0.0119841 145.296C-0.0118425 138.303 1.66792 131.405 4.89642 125.198C8.16065 118.861 13.5455 112.392 21.0627 105.78C28.58 99.1798 38.8493 91.9723 51.8824 84.181C61.7228 78.4507 71.2415 72.1843 80.3909 65.4057C87.2648 60.1638 92.1612 55.0768 95.068 50.1447C97.9749 45.2126 99.4759 39.5777 99.4164 33.8474C99.4164 25.1626 96.5691 18.1933 90.8626 12.9277C85.1562 7.67392 76.9598 5.05301 66.2855 5.06493C55.0513 5.06493 46.3189 7.95984 40.0763 13.7497C33.8338 19.5396 30.7006 27.1402 30.6887 36.5517C30.6768 40.7929 31.3082 45.0101 32.5948 49.0487C34.2507 53.7783 36.6215 58.222 39.6355 62.2129C44.1149 68.3006 48.916 74.15 54.0268 79.7254L155.051 189.983L150.977 193.509L49.1781 82.2868C43.9124 76.5446 38.9684 70.5165 34.3818 64.2382C28.3179 56.3397 25.1132 46.6184 25.28 36.6708C25.1132 29.9041 26.8526 23.2207 30.3074 17.3952C33.7623 11.8793 38.7063 7.44757 44.5676 4.62412C51.3463 1.40754 58.7921 -0.165009 66.2975 0.0136903C73.2548 -0.141182 80.1526 1.26458 86.5024 4.12377C91.9825 6.64938 96.6049 10.7356 99.7976 15.8583C103.074 21.3504 104.73 27.6644 104.551 34.0499C104.611 40.1734 103.062 46.2134 100.084 51.5624C97.0814 56.9115 91.9944 62.4393 84.8226 68.1338C75.4111 75.3771 65.5707 82.0366 55.3492 88.0885C42.4947 95.9156 32.4161 102.885 25.0775 109.008C17.7508 115.132 12.6281 121.053 9.7213 126.795C6.81446 132.561 5.32531 138.946 5.37296 145.403C5.27765 153.242 7.68412 160.902 12.2469 167.276C17.036 173.84 23.5764 178.915 31.1175 181.953C39.9453 185.539 49.4163 187.29 58.947 187.112C72.5281 187.112 84.5248 184.395 94.937 178.963C105.349 173.531 114.034 165.298 121.003 154.255C127.972 143.211 133.083 129.177 136.348 112.165L140.97 113.249C137.527 131.167 132.094 145.928 124.661 157.507C117.239 169.099 108.006 177.7 96.9622 183.335C85.9186 188.958 73.2429 191.758 58.947 191.758L58.935 191.77Z" fill="black"/>
-        </svg>
-        <!--baixa-->
-        <svg id="baixa" viewBox="0 0 1327 620" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M236.348 87.8408V0.552246H0V303.781H367.394V87.8408H236.348ZM160.341 85.3509H97.0932V22.1153H160.341V85.3509ZM291.303 238.413H162.485V175.165H291.303V238.413Z" fill="black"/>
-            <path d="M654.646 1.98145H592.245V302.065H654.646V1.98145Z" fill="black"/>
-            <path d="M670.471 315H585.774V399.697H670.471V315Z" fill="black"/>
-            <path d="M805.66 315H743.389V399.618H805.66V315Z" fill="black"/>
-            <path d="M670.419 427.013H585.788V534.28H670.419V427.013Z" fill="black"/>
-            <path d="M670.419 427.013H743.39V399.618L670.471 399.696L670.419 427.013Z" fill="black"/>
-            <path d="M805.62 427.013H743.389V534.057H805.62V427.013Z" fill="black"/>
-            <path d="M824.287 337.056V620H1026.64V481.749H1165.98V620H1367.47V337.056H824.287ZM1165.98 446.4H1026.64V383.88H1165.98V446.4Z" fill="black"/>
-            <path d="M534.573 1.95801H384.275V299.969H403.336V171.127H534.573V299.969H575.364V1.95801H534.573ZM532.249 120.924H496.736V40.0805H532.249V120.924Z" fill="black"/>
-            <path d="M236.348 87.8408V0.552246H0V303.781H367.394V87.8408H236.348ZM160.341 85.3509H97.0932V22.1153H160.341V85.3509ZM291.303 238.413H162.485V175.165H291.303V238.413Z" fill="black"/>
-            <path d="M654.646 1.98145H592.245V302.065H654.646V1.98145Z" fill="black"/>
-            <path d="M670.471 315H585.774V399.697H670.471V315Z" fill="black"/>
-            <path d="M805.66 315H743.389V399.618H805.66V315Z" fill="black"/>
-            <path d="M670.419 427.013H585.788V534.28H670.419V427.013Z" fill="black"/>
-            <path d="M670.419 427.013H743.39V399.618L670.471 399.696L670.419 427.013Z" fill="black"/>
-            <path d="M805.62 427.013H743.389V534.057H805.62V427.013Z" fill="black"/>
-            <path d="M824.287 337.056V620H1026.64V481.749H1165.98V620H1367.47V337.056H824.287ZM1165.98 446.4H1026.64V383.88H1165.98V446.4Z" fill="black"/>
-            <path d="M534.573 1.95801H384.275V299.969H403.336V171.127H534.573V299.969H575.364V1.95801H534.573ZM532.249 120.924H496.736V40.0805H532.249V120.924Z" fill="black"/>
-        </svg>
-    </div>
-    <div class="row">
-        <div class="artigo1">
-            <img src="img/artigo1.svg" class="titulo">
-        </div>
-
-        <div class="artigo1" style="margin-top: 5vh;">
-            <p class="by"> by </p>
-            <p class="autor"> Michael Beirut</p>
-        </div>
-
-        <div class="artigo1" style="margin-top: 5vh; margin-bottom: 10vh;">
-            <img src="img/linha.svg">
-        </div>
-
-        <div class="artigo1" style="margin-top: 5vh;">
-
-        <p class="texto"> For the first ten years of my career, I worked for Massimo Vignelli, a designer who is
-            legendary for using a very limited number of typefaces. Between 1980 and 1990, most of my projects were set in five fonts:
-            Helvetica (naturally), Futura, Garamond No. 3, Century Expanded, and, of course, Bodoni.
-        </p>
-
-        </div>
-
-        <div class="artigo1" style="margin-top: 5vh;">
-
-            <p class="texto">For Massimo, this was an ideological choice, an ethical imperative. "In the new computer age," 
-                he once wrote, "the proliferation of typefaces and type manipulations represents a new level of visual 
-                pollution threatening our culture. Out of thousands of typefaces, all we need are a few basic ones, and 
-                trash the rest." For me, it became a time-saving device. Why spend hours choosing between Bembo, Sabon and 
-                Garamond No. 3 every time you needed a Venetian Roman? For most people — my mom, for instance — these were 
-                distinctions without differences. Why not just commit to Garamond No. 3 and never think about it again? 
-                My Catholic school education must have well prepared me for this kind of moral clarity. I accepted it gratefully.
-            </p>
-    
+                <!-- Alta -->
+                <svg id="alta" viewBox="0 0 729 407" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0 0V201.671H56.3746V88.1557H104.867V201.695H146.399V0H0ZM104.891 72.9659H56.3866V24.4617H104.891V72.9659Z"
+                        fill="black" />
+                    <path d="M160.594 96.038H200.785V240.676H301.531V266.396H160.594V96.038Z" fill="black" />
+                    <path
+                        d="M518.14 126.777H405.451H327.586H214.885V188.123H327.586V317.32H405.451V188.123H518.14V126.777Z"
+                        fill="black" />
+                    <path
+                        d="M663.473 202.87H420.844V406.578H451.619V306.395H663.473V406.59H729V202.87H663.473ZM501.393 268.289H455.441V222.324H501.393V268.289Z"
+                        fill="black" />
+                    <path
+                        d="M0 0V201.671H56.3746V88.1557H104.867V201.695H146.399V0H0ZM104.891 72.9659H56.3866V24.4617H104.891V72.9659Z"
+                        fill="black" />
+                    <path d="M160.594 96.038H200.785V240.676H301.531V266.396H160.594V96.038Z" fill="black" />
+                    <path
+                        d="M518.14 126.777H405.451H327.586H214.885V188.123H327.586V317.32H405.451V188.123H518.14V126.777Z"
+                        fill="black" />
+                    <path
+                        d="M663.473 202.87H420.844V406.578H451.619V306.395H663.473V406.59H729V202.87H663.473ZM501.393 268.289H455.441V222.324H501.393V268.289Z"
+                        fill="black" />
+                </svg>
+                <!--&-->
+                <svg id="e" viewBox="0 0 156 194" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M58.935 191.77C48.499 191.948 38.1464 189.959 28.5204 185.897C20.2407 182.466 13.0213 176.89 7.60074 169.742C2.46611 162.642 -0.202455 154.052 0.0119841 145.296C-0.0118425 138.303 1.66792 131.405 4.89642 125.198C8.16065 118.861 13.5455 112.392 21.0627 105.78C28.58 99.1798 38.8493 91.9723 51.8824 84.181C61.7228 78.4507 71.2415 72.1843 80.3909 65.4057C87.2648 60.1638 92.1612 55.0768 95.068 50.1447C97.9749 45.2126 99.4759 39.5777 99.4164 33.8474C99.4164 25.1626 96.5691 18.1933 90.8626 12.9277C85.1562 7.67392 76.9598 5.05301 66.2855 5.06493C55.0513 5.06493 46.3189 7.95984 40.0763 13.7497C33.8338 19.5396 30.7006 27.1402 30.6887 36.5517C30.6768 40.7929 31.3082 45.0101 32.5948 49.0487C34.2507 53.7783 36.6215 58.222 39.6355 62.2129C44.1149 68.3006 48.916 74.15 54.0268 79.7254L155.051 189.983L150.977 193.509L49.1781 82.2868C43.9124 76.5446 38.9684 70.5165 34.3818 64.2382C28.3179 56.3397 25.1132 46.6184 25.28 36.6708C25.1132 29.9041 26.8526 23.2207 30.3074 17.3952C33.7623 11.8793 38.7063 7.44757 44.5676 4.62412C51.3463 1.40754 58.7921 -0.165009 66.2975 0.0136903C73.2548 -0.141182 80.1526 1.26458 86.5024 4.12377C91.9825 6.64938 96.6049 10.7356 99.7976 15.8583C103.074 21.3504 104.73 27.6644 104.551 34.0499C104.611 40.1734 103.062 46.2134 100.084 51.5624C97.0814 56.9115 91.9944 62.4393 84.8226 68.1338C75.4111 75.3771 65.5707 82.0366 55.3492 88.0885C42.4947 95.9156 32.4161 102.885 25.0775 109.008C17.7508 115.132 12.6281 121.053 9.7213 126.795C6.81446 132.561 5.32531 138.946 5.37296 145.403C5.27765 153.242 7.68412 160.902 12.2469 167.276C17.036 173.84 23.5764 178.915 31.1175 181.953C39.9453 185.539 49.4163 187.29 58.947 187.112C72.5281 187.112 84.5248 184.395 94.937 178.963C105.349 173.531 114.034 165.298 121.003 154.255C127.972 143.211 133.083 129.177 136.348 112.165L140.97 113.249C137.527 131.167 132.094 145.928 124.661 157.507C117.239 169.099 108.006 177.7 96.9622 183.335C85.9186 188.958 73.2429 191.758 58.947 191.758L58.935 191.77Z"
+                        fill="black" />
+                </svg>
+                <!--baixa-->
+                <svg id="baixa" viewBox="0 0 1327 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M236.348 87.8408V0.552246H0V303.781H367.394V87.8408H236.348ZM160.341 85.3509H97.0932V22.1153H160.341V85.3509ZM291.303 238.413H162.485V175.165H291.303V238.413Z"
+                        fill="black" />
+                    <path d="M654.646 1.98145H592.245V302.065H654.646V1.98145Z" fill="black" />
+                    <path d="M670.471 315H585.774V399.697H670.471V315Z" fill="black" />
+                    <path d="M805.66 315H743.389V399.618H805.66V315Z" fill="black" />
+                    <path d="M670.419 427.013H585.788V534.28H670.419V427.013Z" fill="black" />
+                    <path d="M670.419 427.013H743.39V399.618L670.471 399.696L670.419 427.013Z" fill="black" />
+                    <path d="M805.62 427.013H743.389V534.057H805.62V427.013Z" fill="black" />
+                    <path
+                        d="M824.287 337.056V620H1026.64V481.749H1165.98V620H1367.47V337.056H824.287ZM1165.98 446.4H1026.64V383.88H1165.98V446.4Z"
+                        fill="black" />
+                    <path
+                        d="M534.573 1.95801H384.275V299.969H403.336V171.127H534.573V299.969H575.364V1.95801H534.573ZM532.249 120.924H496.736V40.0805H532.249V120.924Z"
+                        fill="black" />
+                    <path
+                        d="M236.348 87.8408V0.552246H0V303.781H367.394V87.8408H236.348ZM160.341 85.3509H97.0932V22.1153H160.341V85.3509ZM291.303 238.413H162.485V175.165H291.303V238.413Z"
+                        fill="black" />
+                    <path d="M654.646 1.98145H592.245V302.065H654.646V1.98145Z" fill="black" />
+                    <path d="M670.471 315H585.774V399.697H670.471V315Z" fill="black" />
+                    <path d="M805.66 315H743.389V399.618H805.66V315Z" fill="black" />
+                    <path d="M670.419 427.013H585.788V534.28H670.419V427.013Z" fill="black" />
+                    <path d="M670.419 427.013H743.39V399.618L670.471 399.696L670.419 427.013Z" fill="black" />
+                    <path d="M805.62 427.013H743.389V534.057H805.62V427.013Z" fill="black" />
+                    <path
+                        d="M824.287 337.056V620H1026.64V481.749H1165.98V620H1367.47V337.056H824.287ZM1165.98 446.4H1026.64V383.88H1165.98V446.4Z"
+                        fill="black" />
+                    <path
+                        d="M534.573 1.95801H384.275V299.969H403.336V171.127H534.573V299.969H575.364V1.95801H534.573ZM532.249 120.924H496.736V40.0805H532.249V120.924Z"
+                        fill="black" />
+                </svg>
             </div>
-            
-        <div class="artigo1" style="margin-top: 5vh;">
+            <div class="row">
+                <div class="artigo1">
+                    <img src="img/artigo1.svg" class="titulo">
+                </div>
 
-                <p class="texto">Then, after a decade, I left my first job. Suddenly I could use any typeface I wanted, and
-                    I went nuts. On one of my first projects, I used 37 different fonts on 16 pages. My wife, who had attended
-                    Catholic school herself, found this all too familiar. She remembered classmates who had switched to public
-                    school after eight years under the nuns: freed at last from demure plaid uniforms, they wore the shortest
-                    skirts they could find. "Jesus," she said, looking at one of my multiple font demolition derbies.
-                    "You've become a real slut, haven't you?".
-                </p>
+                <div class="artigo1" style="margin-top: 5vh;">
+                    <p class="by"> by </p>
+                    <p class="autor"> Michael Beirut</p>
+                </div>
+
+                <div class="artigo1" style="margin-top: 5vh; margin-bottom: 10vh;">
+                    <img src="img/linha.svg">
+                </div>
+
+                <div class="artigo1" style="margin-top: 5vh;">
+
+                    <p class="texto"> For the first ten years of my career, I worked for Massimo Vignelli, a designer
+                        who is
+                        legendary for using a very limited number of typefaces. Between 1980 and 1990, most of my
+                        projects were set in five fonts:
+                        Helvetica (naturally), Futura, Garamond No. 3, Century Expanded, and, of course, Bodoni.
+                    </p>
+
+                </div>
+
+                <div class="artigo1" style="margin-top: 5vh;">
+
+                    <p class="texto">For Massimo, this was an ideological choice, an ethical imperative. "In the new
+                        computer age,"
+                        he once wrote, "the proliferation of typefaces and type manipulations represents a new level of
+                        visual
+                        pollution threatening our culture. Out of thousands of typefaces, all we need are a few basic
+                        ones, and
+                        trash the rest." For me, it became a time-saving device. Why spend hours choosing between Bembo,
+                        Sabon and
+                        Garamond No. 3 every time you needed a Venetian Roman? For most people — my mom, for instance —
+                        these were
+                        distinctions without differences. Why not just commit to Garamond No. 3 and never think about it
+                        again?
+                        My Catholic school education must have well prepared me for this kind of moral clarity. I
+                        accepted it gratefully.
+                    </p>
+
+                </div>
+
+                <div class="artigo1" style="margin-top: 5vh;">
+
+                    <p class="texto">Then, after a decade, I left my first job. Suddenly I could use any typeface I
+                        wanted, and
+                        I went nuts. On one of my first projects, I used 37 different fonts on 16 pages. My wife, who
+                        had attended
+                        Catholic school herself, found this all too familiar. She remembered classmates who had switched
+                        to public
+                        school after eight years under the nuns: freed at last from demure plaid uniforms, they wore the
+                        shortest
+                        skirts they could find. "Jesus," she said, looking at one of my multiple font demolition
+                        derbies.
+                        "You've become a real slut, haven't you?".
+                    </p>
+                </div>
+
+                <div class="artigo1" style="margin-top: 5vh;">
+
+                    <p class="texto">Then, after a decade, I left my first job. Suddenly I could use any typeface I
+                        wanted, and
+                        I went nuts. On one of my first projects, I used 37 different fonts on 16 pages. My wife, who
+                        had attended
+                        Catholic school herself, found this all too familiar. She remembered classmates who had switched
+                        to public
+                        school after eight years under the nuns: freed at last from demure plaid uniforms, they wore the
+                        shortest
+                        skirts they could find. "Jesus," she said, looking at one of my multiple font demolition
+                        derbies.
+                        "You've become a real slut, haven't you?".
+                    </p>
+                </div>
+
+                <div class="artigo1" style="margin-top: 5vh;">
+
+                    <p class="texto">It was true. Liberated from monogamy, I became typographically promiscuous. I have
+                        since,
+                        I think, learned to modulate my behavior — like any substance abuser, I learned that binges are
+                        time-consuming, costly,
+                        and ultimately counterproductive — but I've never gone back to five-typeface sobriety. Those
+                        thousands
+                        of typefaces are still out there, but my recovery has required that I become more discriminating
+                        and come up with some
+                        answers to this seemingly simple question: why choose a particular typeface?
+                    </p>
+                </div>
+
+                <div class="artigo1" style="margin-top: 5vh;">
+
+                    <p class="subtitulo">Here are thirteen reasons.</p>
+                </div>
+            </div>
         </div>
 
-        <div class="artigo1" style="margin-top: 5vh;">
+        <div class="slideshow">
+            <div class="container2">
+                <img src="./img/1.svg" alt="1" class="image1" />
+                <div class="contentTitle1">Because it works</div>
+                <div class="contentText1">Some typefaces are just perfect for certain things. I've specified exotic
+                    fonts for
+                    identity programs
+                    that work beautifully in headlines and even in text, but sooner or later you have to set that really
+                    tiny type at the bottom of the business reply card. This is what Franklin Gothic is for. Careful,
+                    though: some typefaces work too well. Frutiger has been used so much for signage programs in
+                    hospitals and airports that seeing it now makes me feel that I'm about to get diagnosed with a brain
+                    tumor or miss the 7:00 to O'Hare.</div>
+                <img src="./img/2.svg" alt="2" class="image2" />
+                <div class="contentTitle2">Because you like it´s history</div>
+                <div class="contentText2">I've heard of several projects where the designer found a font that was
+                    created the
+                    same year the client's organization was founded. This must give the recommendation an aura of
+                    manifest
+                    destiny
+                    that is positively irresistible. I haven't had that luck yet, but still try to find the same kind of
+                    evocative alignment. For instance, I was never a fan of Aldo Novarese's Eurostyle, but I came to
+                    love
+                    it while working on a monograph on Eero Saarinen: they both share an expressiveness peculiar to
+                    the postwar optimism of the 1950's.</div>
+            </div>
 
-            <p class="texto">Then, after a decade, I left my first job. Suddenly I could use any typeface I wanted, and
-                I went nuts. On one of my first projects, I used 37 different fonts on 16 pages. My wife, who had attended
-                Catholic school herself, found this all too familiar. She remembered classmates who had switched to public
-                school after eight years under the nuns: freed at last from demure plaid uniforms, they wore the shortest
-                skirts they could find. "Jesus," she said, looking at one of my multiple font demolition derbies.
-                "You've become a real slut, haven't you?".
-            </p>
+            <div class="container2">
+                <img src="./img/3.svg" alt="3" class="image1" />
+                <div class="contentTitle3">Because you like it´s name</div>
+                <div class="contentText3">Once I saw a project in a student portfolio that undertook the dubious
+                    challenge of
+                    redesigning the
+                    Tiffany's identity. I particularly disliked the font that was used, and I politely asked what it
+                    was.
+                    "Oh," came the enthusiastic response, "that's the best part! It's called Tiffany!" On the other
+                    hand,
+                    Bruce Mau designed Spectacle, the book he created with David Rockwell, using the typeface
+                    Rockwell. I thought this was funny.</div>
+                <img src="./img/4.svg" alt="4" class="image3" />
+                <div class="contentTitle2">Because of who designed it</div>
+                <div class="contentText2">Once I was working on a project where the client group included some very
+                    strong-minded
+                    architects. I picked Cheltenham, an idiosyncratic typeface that was not only well-suited to the
+                    project’s requirements, but was one of the few I know that was designed by an architect, Bertram
+                    Goodhue. Recently, I designed a publications program for a girls’ school. I used a typeface that
+                    was designed by a woman and named after another, Zuzana Licko’s Mrs. Eaves. In both cases, my
+                    clients knew that the public would be completely unaware of the story behind the font selection,
+                    but took some comfort in it nonetheless.
+                    I did too.</div>
+            </div>
+
+            <div class="container2">
+                <img src="./img/5.svg" alt="5" class="image1" />
+                <div class="contentTitle3">Because it was there</div>
+                <div class="contentText3">Sometimes a typeface is already living on the premises when you show up,
+                    and it just seems mean to evict it. “We use Baskerville and Univers 65 on all our materials,
+                    but feel free to make an alternate suggestion.” Really? Why bother? It’s like one of those
+                    shows where the amateur chef is given a turnip, a bag of flour, a leg of lamb and some
+                    maple syrup and told to make a dish out of it. Sometimes it’s something you’ve never used
+                    before, which makes it even more fun.</div>
+                <img src="./img/6.svg" alt="6" class="image3" />
+                <div class="contentTitle2">Because they made you</div>
+                <div class="contentText2">And sometimes it’s something you’ve never used before, for good reason.
+                    “We use ITC Eras on all our materials.” “Can I make an alternate suggestion?” “No.”
+                    This is when blind embossing comes in handy.</div>
+            </div>
+
+            <div class="container2">
+                <img src="./img/7.svg" alt="7" class="image1" />
+                <div class="contentTitle3">Because it reminds you of something </div>
+                <div class="contentText3">Whenever I want to make words look straightforward, conversational,
+                    and smart, I frequently consider Futura, upper and lower case. Why? Not because Paul Renner
+                    was straightforward, conversational, and smart, although he might have been. No, it’s because
+                    45 years ago, Helmut Krone decided to use Futura in Doyle Dane Bernbach’s advertising for
+                    Volkswagen,
+                    and they still use it today. One warning, however: what reminds you of something may remind someone
+                    else of something else.</div>
+                <img src="./img/8.svg" alt="8" class="image3" />
+                <div class="contentTitle2">Because it´s beautiful</div>
+                <div class="contentText2">Cyrus Highsmith's Novia is now commercially available. He originally designed
+                    it for the headlines in Martha Stewart Weddings. Resistance is futile, at least mine is.</div>
+            </div>
         </div>
-
-        <div class="artigo1" style="margin-top: 5vh;">
-
-            <p class="texto">It was true. Liberated from monogamy, I became typographically promiscuous. I have since,
-                I think, learned to modulate my behavior — like any substance abuser, I learned that binges are time-consuming, costly,
-                and ultimately counterproductive — but I've never gone back to five-typeface sobriety. Those thousands
-                of typefaces are still out there, but my recovery has required that I become more discriminating and come up with some
-                answers to this seemingly simple question: why choose a particular typeface? 
-            </p>
-        </div>
-
-        <div class="artigo1" style="margin-top: 5vh;">
-
-            <p class="subtitulo">Here are thirteen reasons.</p>
-        </div>
-    </div>
-    </div>
     </main>
-   
-  
-  <script src="js/script.js"></script>  <!-- Aceder ao JS-->
+
+
+    <script src="js/script.js"></script> <!-- Aceder ao JS-->
 </body>
+
 </html>

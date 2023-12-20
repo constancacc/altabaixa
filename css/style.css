@@ -157,7 +157,6 @@ main{
 
 .texto{
     width: 50vw;
-
     text-align: center;
     font-size: 1.25rem;
     font-style: normal;
@@ -173,3 +172,104 @@ main{
     font-weight: 700;
     line-height: normal;
 }
+
+
+/* carrossel */
+.slideshow {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  background-color: #000;
+  margin-top: 37.5%;
+}
+
+.container2 {
+  display: relative;
+}
+
+/* infos das razões */
+.contentTitle1 {
+  color: #ffffff;
+  font-size: 16px;
+  width: 100%;
+  text-align: left;
+  margin-left:15%;
+  margin-top: -12.5%;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.contentText1 {
+  color: #ffffff;
+  font-size: 16px;
+  width: 40%;
+  text-align: left;
+  margin-left:15%;
+  font-family: 'Montserrat';
+  font-weight: semibold;
+  font-size: 1rem;
+}
+
+.contentTitle2 {
+  color: #ffffff;
+  font-size: 16px;
+  width: 100%;
+  text-align: left;
+  margin-top: -12.5%;
+  margin-left:55%;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.contentText2 {
+  color: #ffffff;
+  font-size: 16px;
+  width: 40%;
+  text-align: left;
+  margin-left: 55%;
+  font-family: 'Montserrat';
+  font-weight: semibold;
+  font-size: 1rem;
+  padding-bottom: 10%;
+}
+
+.contentTitle3 {
+  color: #ffffff;
+  font-size: 16px;
+  width: 100%;
+  text-align: left;
+  margin-top: -12.5%;
+  margin-left:20%;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.contentText3 {
+  color: #ffffff;
+  font-size: 16px;
+  width: 40%;
+  text-align: left;
+  margin-left: 20%;
+  font-family: 'Montserrat';
+  font-weight: semibold;
+  font-size: 1rem;
+  padding-bottom: 10%;
+}
+
+/*imagens dos numeros*/
+.image1{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.image2{
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+.image3{
+  margin-left: 40%;
+}
+
