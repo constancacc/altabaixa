@@ -54,10 +54,10 @@ function SlideShow() {
 }
 
 // Call the SlideShow function initially
-SlideShow();
+/* SlideShow(); */
 
 // Set the interval to call the SlideShow function every `intervalTime` milliseconds
-var slideInterval = setInterval(SlideShow, intervalTime);
+/* var slideInterval = setInterval(SlideShow, intervalTime); */
 
 // If you want to stop the slideshow, you can use clearInterval like this:
 // clearInterval(slideInterval);

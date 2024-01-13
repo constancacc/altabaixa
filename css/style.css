@@ -12,16 +12,17 @@ main{
     left:0;
     top:0;
 
-    width: 38vw;
-    height: auto;
+    /* width: 38vw; */
+    /* height: auto; */
+    height: 38vh;
 
     animation: slide-in-from-left 2.5s forwards;
 }
 
 #e{
-    width: 8.5vw;
-    height: auto;
-
+   /*  width: 8.5vw;
+    height: auto; */
+    height: 19vh;
     animation: slide-in-from-top 2.5s forwards;
 }
 
@@ -30,12 +31,16 @@ main{
     top: 38vh;
     right:0;
 
-    width: 72.5vw;
-    height: auto;
+    /* width: 72.5vw;
+    height: auto; */
+    height: 62vh;
     
     animation: slide-in-from-right 2.5s forwards;
 }
 
+.container {
+  height: 100vh;
+}
 /*------------------------animações----------------------------*/
 @keyframes slide-in-from-left {
     0% { 
@@ -67,7 +72,7 @@ main{
 /*-------------------------linhas-----------------------------*/
   .row {
 
-    height: 100vh;
+    height: fit-content;
 
     box-sizing: border-box;
     flex: 0 1 auto;
@@ -182,103 +187,131 @@ main{
     line-height: normal;
 }
 
-
 /* carrossel */
-.slideshow {
-  max-width: 100%;
+#num-4,
+#num-6 {
   position: relative;
-  margin: auto;
+  justify-content: flex-end;
+  right: 10%;
+}
+
+#num-8 {
+  position: relative;
+  justify-content: flex-end;
+  right: 5%;
+}
+
+.slideshow {
+  margin-top: 5%;
   background-color: #000;
-  margin-top: 37.5%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  display: flex;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5%;
+  width: fit-content;
 }
 
 .container2 {
-  display: relative;
+  position: relative;
+  top: 10%;
+  display: inline-block;
+  width: 100vw;
+  margin: 15px;
+  flex: 0 0 auto;
+}
+
+.text {
+  height: fit-content;
 }
 
 /* infos das razões */
-.contentTitle1 {
+@media only screen and (min-width: 992px) {
+  .contentText {
+    font-size: 16px;
+  }
+  .contentTitle {
+    font-size: 32px;
+  }
+  .text {
+    max-width: 40%;
+  }
+}
+
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contentText {
+    font-size: 16px;
+  }
+  .contentTitle {
+    font-size: 32px;
+  }
+
+  .text {
+    max-width: 40%;
+  }
+  
+}
+
+/* mobile */
+@media only screen and (max-width: 767px) {
+  .contentText {
+    font-size: 12px;
+  }
+  .contentTitle {
+    font-size: 24px;
+  }
+  .container2 img{
+    max-width: 10%;
+  }
+  .text {
+    max-width: 60%;
+  }
+}
+
+.contentTitle {
+  position: relative;
   color: #ffffff;
-  font-size: 16px;
-  width: 100%;
+  width: fit-content;
   text-align: left;
-  margin-left:15%;
-  margin-top: -12.5%;
+  margin-bottom: 5%;
   font-family: 'Montserrat';
   font-weight: bold;
-  font-size: 2rem;
 }
 
-.contentText1 {
+.contentText {
+  position: relative;
   color: #ffffff;
-  font-size: 16px;
-  width: 40%;
+  height: 100px;
   text-align: left;
-  margin-left:15%;
+  white-space: normal;
+  word-wrap: break-word;
   font-family: 'Montserrat';
   font-weight: semibold;
-  font-size: 1rem;
 }
 
-.contentTitle2 {
-  color: #ffffff;
-  font-size: 16px;
-  width: 100%;
-  text-align: left;
-  margin-top: -12.5%;
-  margin-left:55%;
-  font-family: 'Montserrat';
-  font-weight: bold;
-  font-size: 2rem;
-}
-
-.contentText2 {
-  color: #ffffff;
-  font-size: 16px;
-  width: 40%;
-  text-align: left;
-  margin-left: 55%;
-  font-family: 'Montserrat';
-  font-weight: semibold;
-  font-size: 1rem;
-  padding-bottom: 10%;
-}
-
-.contentTitle3 {
-  color: #ffffff;
-  font-size: 16px;
-  width: 100%;
-  text-align: left;
-  margin-top: -12.5%;
-  margin-left:20%;
-  font-family: 'Montserrat';
-  font-weight: bold;
-  font-size: 2rem;
-}
-
-.contentText3 {
-  color: #ffffff;
-  font-size: 16px;
-  width: 40%;
-  text-align: left;
-  margin-left: 20%;
-  font-family: 'Montserrat';
-  font-weight: semibold;
-  font-size: 1rem;
-  padding-bottom: 10%;
-}
 
 /*imagens dos numeros*/
 .image1{
-  margin-top: 5%;
   margin-left: 5%;
 }
+
 .image2{
-  margin-top: 10%;
-  margin-left: 40%;
+  margin-left: 30%;
 }
+
 
 .image3{
-  margin-left: 40%;
+  margin-left: 5%;
 }
 
+.image4{
+  margin-left: 0%;
+}
