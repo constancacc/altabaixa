@@ -5,3 +5,71 @@
 
     padding: 2%;
 }
+
+#artigo2{
+    margin-top: 20vh;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artigo2{
+    color: #000;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: lighter;
+    flex-shrink: 0;
+
+    position: relative;
+}
+
+.texto2{
+    width: 50.5vw;
+    background-color: white;
+    position: relative;
+}
+
+#cut-text{
+    width: 38vw;
+    position: relative;
+    right: -10vw;
+}
+
+#RE{
+    position: absolute;
+    left: -5vw;
+}
+
+#LA{
+    position: absolute;
+    right:-11.5vw;
+    top:-5vw;
+    z-index: 2;
+}
+
+#dois{
+    width: 10vw;
+
+    position: absolute;
+    right:-13vw;
+    top:-10vw;
+
+    z-index: 1;
+}
+
+#TED{
+    position: absolute;
+    left: -16vw;
+    top: 2vw;
+
+    z-index: 1;
+
+}
+
+#WORK{
+    width: 30vw;
+    position: absolute;
+    right:-24.6vw;
+    top:-4.3vw;
+}

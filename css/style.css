@@ -6,6 +6,7 @@
 main{
     position: relative;
 }
+
 /*-----------------------------ecrã inicial-----------------------------*/
 #alta{
     position: relative;
@@ -147,7 +148,6 @@ main{
   }
 
   .titulo{
-   
     margin-top: 10vh;
 
     width: 85vw;
