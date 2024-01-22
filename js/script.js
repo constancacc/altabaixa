@@ -6,9 +6,8 @@ window.addEventListener('scroll', function() {
 
   if (prevScrollPos > currentScrollPos) {
     // user has scrolled up
-    /*
     document.querySelector('.navbar').classList.remove('show');
-    document.querySelector('.navbar').classList.add('hidden');*/
+    document.querySelector('.navbar').classList.add('hidden');
 
   } else {
     // user has scrolled down
