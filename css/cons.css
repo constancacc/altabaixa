@@ -6,6 +6,8 @@
     padding: 2%;
 }
 
+
+/*ARTIGO 2*/
 #artigo2{
     margin-top: 20vh;
     
@@ -30,11 +32,28 @@
     position: relative;
 }
 
-#cut-text{
+.cut-text{
     width: 38vw;
     position: relative;
     right: -10vw;
 }
+
+.relatedwork{
+    position: absolute;
+    left:0;
+}
+
+.subtitulo{
+    position: absolute;
+    top:0;
+    left: -40vh;
+}
+/*-------TITULOS-------------------*/
+
+.animation2{
+    position: absolute;
+}
+
 
 #RE{
     position: absolute;
@@ -42,7 +61,7 @@
 }
 
 #LA{
-    position: absolute;
+   
     right:-11.5vw;
     top:-5vw;
     z-index: 2;
@@ -51,7 +70,7 @@
 #dois{
     width: 10vw;
 
-    position: absolute;
+   
     right:-13vw;
     top:-10vw;
 
@@ -69,7 +88,27 @@
 
 #WORK{
     width: 30vw;
-    position: absolute;
     right:-24.6vw;
     top:-4.3vw;
+}
+
+#tres{
+    top: -17vh;
+    left: -33vh;
+
+    z-index: 1;
+}
+
+#APPRO{
+    top:-5vh;
+    left:-37vh;
+
+    z-index: 2;
+}
+
+#ACH{
+    bottom:-6vh;
+    right:-22vh;
+
+    z-index: 2;
 }
