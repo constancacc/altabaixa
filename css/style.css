@@ -1,10 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    --intro-height: 15vh;
+    --img-height: 70vh;
 }
 
 main{
     position: relative;
+}
+
+
+
+/* FONTS */
+@font-face {
+  font-family: "Linux Libertine";
+  src: url("../fonts/LinLibertine_R.ttf");
 }
 /*-----------------------------ecrã inicial-----------------------------*/
 #alta{
@@ -146,10 +156,10 @@ main{
 
   }
 
-  .titulo{
-   
-    margin-top: 10vh;
 
+
+  .titulo{
+    margin-top: 10vh;
     width: 85vw;
     height: auto;
 
@@ -177,8 +187,8 @@ main{
     font-weight: 600;
     line-height: normal;
 }
-.subtitulo{
 
+.subtitulo{
     text-align: center;
     font-family: Source Sans 3;
     font-size: 1.875rem;
@@ -186,6 +196,180 @@ main{
     font-weight: 700;
     line-height: normal;
 }
+
+/* ARTIGO 2 */
+
+.abstract {
+  color: #000;
+  font-family: "Times New Roman";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  height: fit-content;
+  width: 100%;
+  margin-left: 25vw;
+  margin-bottom: 2%;
+  position: relative;
+  z-index: 2;
+}
+
+.img1 {
+  position: absolute;
+  right: 0;
+  width: 25%;
+  margin-top: -50vh;
+  z-index: 1;
+}
+
+.img2 {
+  position: absolute;
+  left: 10vw;
+  margin-top: -90vh;
+  width: 20%;
+  z-index: 1;
+}
+.artigo2-capa {
+  width: 100%;
+  height: auto; 
+  display: block;
+}
+
+.artigo2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.texto-artigo2{
+  position: relative;
+  font-family: 'Linux Libertine', sans-serif;
+  width: 50vw;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+  z-index: 2;
+}
+
+.keywords {
+  width: 100%;
+  font-family: 'Linux Libertine', sans-serif;
+  margin-top: 5%;
+  margin-left: 25vw;
+  display: inline;
+  list-style: none;
+}
+
+.keywords li {
+  display: inline;
+  margin-right: 5%;
+}
+
+.artigo2-1 {
+  margin-top: 35vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.num1 {
+  width: 10vw;
+  position: absolute;
+  left: 10vw;
+  
+}
+
+.intro {
+  height: var(--intro-height);
+  position: absolute;
+  right: 2vw;
+  margin-top: -8vh;
+  z-index: 1;
+  animation: slide-in-from-right 2.5s forwards;
+}
+
+.duc {
+  height: var(--intro-height);
+  position: absolute;
+  margin-top: -8vh;
+  left: 15vw;
+  z-index: 1;
+  animation: slide-in-from-left 2.5s forwards;
+}
+
+.tion {
+  height: var(--intro-height);
+  position: absolute;
+  margin-top: -8vh;
+  right: 12vw;
+  z-index: 1;
+  animation: slide-in-from-right 2.5s forwards;
+}
+
+.bloco1 {
+  width: 100%;
+}
+
+.bloco2 {
+  margin-top: 10vh;
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 5vh;
+}
+
+.bloco3 {
+  margin-top: 10vh;
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 5vh;
+}
+
+.tion {
+  position: absolute;
+  height: var(--intro-height);
+}
+
+.figure {
+  position: absolute;
+  height: var(--img-height);
+  left: 20vw;
+}
+
+.col-text {
+  width: 25vw;
+  margin-left: 50vw;
+  position: relative;
+  background: white;
+  font-family: 'Linux Libertine', sans-serif;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+  z-index: 2;
+}
+.artigo2-1 p {
+  position: relative;
+  background: white;
+  font-family: 'Linux Libertine', sans-serif;
+  width: 50vw;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+  z-index: 2;
+  margin-left: 25vw;
+}
+
 
 /* carrossel */
 #num-4,
@@ -208,7 +392,7 @@ main{
   overflow-x: scroll;
   white-space: nowrap;
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .wrapper {
@@ -219,6 +403,10 @@ main{
   width: fit-content;
 }
 
+
+/* .wrapper img {
+  height: 40vh;
+} */
 .container2 {
   position: relative;
   top: 10%;
@@ -297,7 +485,6 @@ main{
   font-weight: semibold;
 }
 
-
 /*imagens dos numeros*/
 .image1{
   margin-left: 5%;
@@ -306,7 +493,6 @@ main{
 .image2{
   margin-left: 30%;
 }
-
 
 .image3{
   margin-left: 5%;
