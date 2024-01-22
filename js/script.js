@@ -3,6 +3,33 @@ let prevScrollPos = window.pageYOffset;
 window.addEventListener('scroll', function() {
   // current scroll position
   const currentScrollPos = window.pageYOffset;
+  let reveals = document.querySelectorAll('.artigo2');
+  let animation2 = document.querySelectorAll('.animation2');
+  let animation3 = document.querySelectorAll('.animation3');
+
+  for(let i=0; i<reveals.length; i++){
+    
+    var windowheigth = window.innerHeight;
+    var revealtop = reveals[i].getBoundingClientRect().top;
+    var revealpoint= 150;
+
+    if(revealtop < windowheigth - revealpoint){
+      reveals[i].classList.add('scroll');
+
+      for (let j = 0; j < animation2.length; j++) {
+        if (animation2[j].closest('.artigo2') === reveals[i]) {
+          animation2[j].style.animation = "slide-in-from-left 2.5s forwards";
+        }
+      }
+
+      for(let y=0; y<animation3.length; y++){
+        if (animation2[y].closest('.artigo2') === reveals[i]) {
+          animation3[y].style.animation = "slide-in-from-right 2.5s forwards";
+        }
+      
+    }
+    }
+  }
 
   if (prevScrollPos > currentScrollPos) {
     // user has scrolled up

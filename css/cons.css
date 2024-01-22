@@ -8,13 +8,19 @@
 
 
 /*ARTIGO 2*/
+.scroll{
+    opacity: 1;
+    animation: fadeIn 2.5s forwards;
+}
+
 #artigo2{
     margin-top: 20vh;
-    
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    
 }
 
 .artigo2{
@@ -24,6 +30,8 @@
     flex-shrink: 0;
 
     position: relative;
+    opacity:0;
+    
 }
 
 .texto2{
@@ -52,17 +60,22 @@
 
 .animation2{
     position: absolute;
-    animation: slide-in-from-left 2.5s forwards;
+    
 }
 
+.animation3{
+    position: absolute;
+   
+}
+.animation4{
+    position: absolute;
+}
 
 #RE{
-    position: absolute;
     left: -5vw;
 }
 
 #LA{
-   
     right:-11.5vw;
     top:-5vw;
     z-index: 2;
@@ -71,7 +84,6 @@
 #dois{
     width: 10vw;
 
-   
     right:-13vw;
     top:-10vw;
 
@@ -79,7 +91,6 @@
 }
 
 #TED{
-    position: absolute;
     left: -16vw;
     top: 2vw;
 
