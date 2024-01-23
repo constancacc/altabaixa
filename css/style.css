@@ -13,10 +13,10 @@ main{
 
 
 /* FONTS */
-@font-face {
-  font-family: "Linux Libertine";
+/* @font-face {
+  font-family: "Source Sans 3";
   src: url("../fonts/LinLibertine_R.ttf");
-}
+} */
 /*-----------------------------ecrã inicial-----------------------------*/
 #alta{
     position: relative;
@@ -240,7 +240,7 @@ main{
 
 .capa p {
   color: #000;
-  font-family: "Linux Libertine";
+  font-family: "Source Sans 3";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -284,12 +284,12 @@ main{
 
 .texto-artigo2{
   position: relative;
-  font-family: 'Linux Libertine', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   width: 50vw;
   text-align: center;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 600;
+  font-weight: lighter;
   line-height: normal;
   text-align: left;
   z-index: 2;
@@ -297,7 +297,7 @@ main{
 
 .keywords {
   width: 100%;
-  font-family: 'Linux Libertine', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   margin-top: 5%;
   margin-left: 25vw;
   display: inline;
@@ -384,11 +384,11 @@ main{
   margin-left: 50vw;
   position: relative;
   background: white;
-  font-family: 'Linux Libertine', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   text-align: center;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 600;
+  font-weight: lighter;
   line-height: normal;
   text-align: left;
   z-index: 2;
@@ -396,12 +396,12 @@ main{
 .artigo2-1 p {
   position: relative;
   background: white;
-  font-family: 'Linux Libertine', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   width: 50vw;
   text-align: center;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 600;
+  font-weight: lighter;
   line-height: normal;
   text-align: left;
   z-index: 2;
