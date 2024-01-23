@@ -61,3 +61,35 @@ function SlideShow() {
 
 // If you want to stop the slideshow, you can use clearInterval like this:
 // clearInterval(slideInterval);
+
+document.addEventListener("DOMContentLoaded", function() {
+  var images = document.querySelectorAll('.image-container');
+
+  function isElementInViewport(el) {
+      var rect = el.getBoundingClientRect();
+      return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+  }
+
+  function handleVisibility() {
+      images.forEach(function(image, index) {
+          if (isElementInViewport(image)) {
+              setTimeout(function() {
+                  image.classList.add('visible');
+              }, index * 200); 
+          }
+      });
+  }
+
+  window.addEventListener('scroll', handleVisibility);
+  handleVisibility(); 
+});
+
+
+
+
+
