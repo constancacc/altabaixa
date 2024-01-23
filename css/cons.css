@@ -29,6 +29,7 @@
     font-weight: lighter;
     flex-shrink: 0;
 
+    width: 50vw;
     position: relative;
     opacity:0;
     
