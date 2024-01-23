@@ -123,8 +123,9 @@ main{
   font-family: 'Source Sans 3', sans-serif;
   color: black;
 
+
   margin:auto;
-  text-decoration: none;
+ 
 }
 .artigo:hover{
   color: red;
@@ -187,7 +188,7 @@ main{
     text-align: center;
     font-size: 1.25rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: normal;
 }
 
@@ -289,13 +290,14 @@ main{
   text-align: center;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: lighter;
+  font-weight: 500;
   line-height: normal;
   text-align: left;
   z-index: 2;
 }
 
 .keywords {
+  font-size: 20px;
   width: 100%;
   font-family: 'Source Sans 3', sans-serif;
   margin-top: 5%;
@@ -388,7 +390,7 @@ main{
   text-align: center;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: lighter;
+  font-weight: 500;
   line-height: normal;
   text-align: left;
   z-index: 2;
@@ -401,7 +403,7 @@ main{
   text-align: center;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: lighter;
+  font-weight: 500;
   line-height: normal;
   text-align: left;
   z-index: 2;
