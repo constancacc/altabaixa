@@ -8,36 +8,35 @@
 
 .img5-1 {
     position:absolute;
-    margin-top: -6%;
+    left: 5vw;
     margin-left: 17vw;
     z-index: 1;
 }
 
 .img5-2 {
-    width: 20vw;
+    width: 21vw;
     position:absolute;
-    right: 5vw;
+    right: 4vw;
     z-index: 1;
 }
 .img5-3 {
     width: 28vw;
     position:absolute;
-    margin-left: 2vw;
-    margin-top: -1%;
+    left: 2.5vw;
+    
     z-index: 1;
 }
 .img5-4 {
     width: 28vw;
     position:absolute;
-    right: 20vw;
-    margin-top: -5%;
-    z-index: 1;
+    right: 25vw;
+    top: 83.3vw;
 }
 .img6-1 {
     width: 40vw;
     position:absolute;
     margin-left: 2vw;
-    margin-top: -1%;
+ 
     z-index: 1;
 }
 
@@ -45,7 +44,7 @@
     width: 48vw;
     position:absolute;
     right: 1vw;
-    margin-top: -2%;
+    
     z-index: 1;
 }
 
