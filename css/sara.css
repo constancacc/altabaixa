@@ -1,0 +1,82 @@
+/*-----------------------artigo 2----------------------*/
+ 
+.legenda-titulo {
+    display:flex;
+    align-content: flex-start;
+    gap: 10px;
+}
+
+.img5-1 {
+    position:absolute;
+    margin-top: -50px;
+    margin-left: 200px;;
+    z-index: 1;
+}
+
+.img5-2 {
+    position:absolute;
+    margin-left: 1260px;
+    z-index: 1;
+}
+.img5-3 {
+    position:absolute;
+    margin-left: 80px;
+    z-index: 1;
+}
+.img5-4 {
+    position:absolute;
+    margin-left: 900px;
+    margin-top: -70px;
+    z-index: 1;
+}
+.img6-1 {
+    position:absolute;
+    margin-left: 50px;;
+    z-index: 1;
+}
+
+.img6-2 {
+    position:absolute;
+    margin-left: 740px;;
+    z-index: 1;
+}
+
+
+.tituloArtigo2 {
+    color: #C92B1D;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.textArtigo2 {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: 'Source Sans 3', sans-serif;
+
+    .introTexto{
+        z-index: 2;
+        position:relative;
+        margin-left: 50px;;
+        width: 40vw;
+        text-align: left;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+    }
+
+    .texto{
+        width: 50vw;
+        position:relative;
+        z-index:2;
+        text-align: left;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+  }
