@@ -235,6 +235,41 @@ main{
   display: block;
 }
 
+.capa p {
+  color: #000;
+  font-family: "Linux Libertine";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text1 {
+  position: absolute;
+  left: 9vw;
+  margin-top: -24%;
+}
+
+.text2 {
+  position: absolute;
+  left: 32.5vw;
+  margin-top: -36.5%;
+}
+
+.text3 {
+  position: absolute;
+  right: 45vw;
+  margin-top: -6%;
+  text-align: end;
+}
+
+.text4 {
+  position: absolute;
+  right: 5vw;
+  margin-top: -17%;
+  text-align: end;
+}
+
 .artigo2{
   display: flex;
   flex-direction: row;
@@ -379,10 +414,10 @@ main{
   right: 10%;
 }
 
-#num-8 {
+#num-8, #num-10, #num-12 {
   position: relative;
   justify-content: flex-end;
-  right: 5%;
+  right: 7%;
 }
 
 .slideshow {
@@ -392,10 +427,11 @@ main{
   overflow-x: scroll;
   white-space: nowrap;
   display: flex;
-  /* height: 100vh; */
+  height: 130vh;
 }
 
 .wrapper {
+  /* background: orange; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -403,15 +439,21 @@ main{
   width: fit-content;
 }
 
+.because {
+  position: relative;
+  left: 1vw;
+}
+.wrapper img {
+  margin-top: 5%;
+  /* background: yellow; */
+  height: 45vh;
+}
 
-/* .wrapper img {
-  height: 40vh;
-} */
 .container2 {
   position: relative;
-  top: 10%;
+  /* top: 10%; */
   display: inline-block;
-  width: 100vw;
+  width: 85vw;
   margin: 15px;
   flex: 0 0 auto;
 }
@@ -475,6 +517,7 @@ main{
 }
 
 .contentText {
+  /* width: 45vw; */
   position: relative;
   color: #ffffff;
   height: 100px;
@@ -495,7 +538,7 @@ main{
 }
 
 .image3{
-  margin-left: 5%;
+  margin-left: -5%;
 }
 
 .image4{

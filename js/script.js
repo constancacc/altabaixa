@@ -61,3 +61,4 @@ function SlideShow() {
 
 // If you want to stop the slideshow, you can use clearInterval like this:
 // clearInterval(slideInterval);
+
