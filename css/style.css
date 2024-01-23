@@ -11,6 +11,7 @@ main{
 
 
 
+
 /* FONTS */
 @font-face {
   font-family: "Linux Libertine";
@@ -103,7 +104,7 @@ main{
 
     background-color:rgba(255, 255, 255, 0.4);
     height: 5vh;
-    z-index: 2;
+    z-index: 4;
 
   
     justify-content: center;
@@ -111,12 +112,12 @@ main{
 }
 .show{
   display: flex;
-  animation: fadeIn 2.5s forwards;
+  animation: fadeIn 1s forwards;
 }
 
 .hidden{
-    display: none;
-    
+  display: flex;
+  animation: fadeOut 1s forwards;
 }
 .artigo{
   font-family: 'Source Sans 3', sans-serif;
@@ -128,6 +129,7 @@ main{
 .artigo:hover{
   color: red;
 }
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -136,7 +138,7 @@ main{
         opacity: 1;
     }
   }
-/*
+
   @keyframes fadeOut {
     0% {
         opacity: 1;
@@ -144,7 +146,7 @@ main{
     100% {
         opacity: 0;
     }
-  }*/
+  }
   
 /*-----------------------artigo 1----------------------*/
  
@@ -159,6 +161,7 @@ main{
 
 
   .titulo{
+   
     margin-top: 10vh;
     width: 85vw;
     height: auto;

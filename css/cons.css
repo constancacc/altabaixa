@@ -1,0 +1,128 @@
+#escolha_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2%;
+}
+
+
+/*ARTIGO 2*/
+.scroll{
+    opacity: 1;
+    animation: fadeIn 2.5s forwards;
+}
+
+#artigo2{
+    margin-top: 20vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.artigo2{
+    color: #000;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: lighter;
+    flex-shrink: 0;
+
+    position: relative;
+    opacity:0;
+    
+}
+
+.texto2{
+    width: 50.5vw;
+    background-color: white;
+    position: relative;
+}
+
+.cut-text{
+    width: 38vw;
+    position: relative;
+    right: -10vw;
+}
+
+.relatedwork{
+    position: absolute;
+    left:0;
+}
+
+.subtitulo2{
+    position: absolute;
+    top:0;
+    left: -40vh;
+}
+/*-------TITULOS-------------------*/
+
+.animation2{
+    position: absolute;
+    
+}
+
+.animation3{
+    position: absolute;
+   
+}
+.animation4{
+    position: absolute;
+}
+
+#RE{
+    left: -5vw;
+}
+
+#LA{
+    right:-11.5vw;
+    top:-5vw;
+    z-index: 2;
+}
+
+#dois{
+    width: 10vw;
+
+    right:-13vw;
+    top:-10vw;
+
+    z-index: 1;
+}
+
+#TED{
+    left: -16vw;
+    top: 2vw;
+
+    z-index: 1;
+
+}
+
+#WORK{
+    width: 30vw;
+    right:-24.6vw;
+    top:-4.3vw;
+}
+
+#tres{
+    top: -17vh;
+    left: -33vh;
+
+    z-index: 1;
+}
+
+#APPRO{
+    top:-5vh;
+    left:-37vh;
+
+    z-index: 2;
+}
+
+#ACH{
+    bottom:-6vh;
+    right:-22vh;
+
+    z-index: 2;
+}
+/*ANIMAÇÕES*/
+
