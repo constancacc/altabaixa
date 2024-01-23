@@ -508,9 +508,9 @@
             </div>
 
             <!-- ARTIGO 2 - 2 -->
-            <div class="artigo2 sub2">
+            <div class="artigo2-2 sub2">
 
-                <div class="artigo2 texto2">
+                <div class="artigo2-2 texto2">
                     <img id="RE" class="animation2" src="img/artigo2/RE.svg">
 
                     <p class="cut-text"> Over time, the methods and technologies available for type design have improved and designers have 
@@ -520,7 +520,7 @@
                     </p>
                 </div>
 
-                <div class="artigo2" style="margin-top: 5vh;">
+                <div class="artigo2-2" style="margin-top: 5vh;">
 
                     <p class="texto2" style=" z-index: 3;"> The framework uses a manifold learning technique that allows for interactively improving the
                         fit quality and interpolating, adding or removing stylistic elements in existing fonts. Campbell and 
@@ -534,7 +534,7 @@
                     <img id="dois" class="animation4" src="img/artigo2/2.svg">
                 </div>
 
-                <div class="artigo2" style="margin-top: 5vh;">
+                <div class="artigo2-2" style="margin-top: 5vh;">
                     <p class="texto2" style="z-index:2; position: relative;">Rehling and Hofstadter [21] use one or more grid-based lowercase letters to generate the rest of the Roman
                         alphabet, creating glyphs that share different style features. Azadi et al. [1] develop an end-to-end
                         stacked conditional GAN model to generate a set of highly-stylised glyph images following a consistent
@@ -543,7 +543,7 @@
                     <img id="TED" class="animation2" src="img/artigo2/TED.svg">
                 </div>
 
-                <div class="artigo2" style="margin-top: 5vh;">
+                <div class="artigo2-2" style="margin-top: 5vh;">
                     <p class="texto2">We can also imitate the behaviour of a variable font using Recurrent Neural Networks (RNNs)
                         and interpolate to obtain intermediate results. Lopes et al. [14] model the drawing process of fonts by
                         building sequential generative models of vector graphics. Their model provides a scale-invariant
@@ -554,7 +554,7 @@
                     </p>
                 </div>
 
-                <div class="artigo2" style="margin-top: 5vh;">
+                <div class="artigo2-2" style="margin-top: 5vh;">
                     <p class="texto2" style="z-index:2; position: relative;">By changing the glyph parameters they create several family instances.
                         Also, outside the typographic field, there are some good examples exploring the latent space. 
                         Sketch-RNN [7] is an RNN able to construct stroke-based drawings. The network produces sketches of
@@ -576,9 +576,9 @@
             
             
             <!-- ARTIGO 2 - 3 -->
-            <div class="artigo2 sub3">
+            <div class="artigo2-2 sub3">
                
-                <div class="artigo2 texto2" style="margin-top: 20vh;" >
+                <div class="artigo2-2 texto2" style="margin-top: 20vh;" >
 
                     <p class="cut-text" style=" background-color: white; z-index: 3;"> In this section, we present the developed model that generates new letter skeletons by 
                         interpolating existing ones. This process allows us to control the style of the resulting font by 
@@ -592,7 +592,7 @@
                     <img id="ACH" class="animation3" src="img/artigo2/ACH.svg">
                 </div>
 
-                <div class="artigo2" style="margin-top: 30vh;">
+                <div class="artigo2-2" style="margin-top: 30vh;">
 
                     <img class="subtitulo2" src="img/artigo2/data.svg">
 
@@ -609,7 +609,7 @@
 
                 </div>
 
-                <div class="artigo2" style="margin-top: 10vh;">
+                <div class="artigo2-2" style="margin-top: 10vh;">
                     <img class="subtitulo2" src="img/artigo2/network_architecture.svg">
 
                     <p class="texto2" >After selecting the fonts, we remained with 2623 
@@ -627,7 +627,7 @@
                    
                 </div>
 
-                <div class="artigo2" style="margin-top: 5vh;">
+                <div class="artigo2-2" style="margin-top: 5vh;">
                     <p class="texto2">The proposed model consists of a Conditional Variational Autoencoder (VAE) [11] and an 
                         Autoregressive sketch decoder. We used a VAE instead of a regular AE to allow us to manipulate the 
                         latent vectors more easily. The output of the VAE are the parameters of distribution instead of vectors 
@@ -640,7 +640,7 @@
                     </p>
                 </div>
 
-                <div class="artigo2" style="margin-top: 5vh; display: flex; column-count: 2; column-gap: 8vw;">
+                <div class="artigo2-2" style="margin-top: 5vh; display: flex; column-count: 2; column-gap: 8vw;">
                     <p class="texto2" style="width: 21vw">Figure 2 shows a diagram of the architecture used. In summary, the encoder employs a 
                         Convolutional Neural Network (CNN) that processes the greyscale images and encodes them into two 64-D 
                         latent vectors which consist of a set of means (μ) and standard deviations (σ) of a Gaussian 
@@ -667,7 +667,7 @@
 
                 </div>
 
-                <div class="artigo2" style="margin-top: 5vh;">
+                <div class="artigo2-2" style="margin-top: 5vh;">
                     <p class="texto2">Finally, we render the produced path in a canvas as a greyscale image
                         that is compared with the original image. Although the standard VAE works at the pixel level, the 
                         output of our sketch decoder is a sequence of points, thus allow- ing the generation of scalable vector
