@@ -123,8 +123,9 @@ main{
   font-family: 'Source Sans 3', sans-serif;
   color: black;
 
+
   margin:auto;
-  text-decoration: none;
+ 
 }
 .artigo:hover{
   color: red;
@@ -296,6 +297,7 @@ main{
 }
 
 .keywords {
+  font-size: 20px;
   width: 100%;
   font-family: 'Source Sans 3', sans-serif;
   margin-top: 5%;
