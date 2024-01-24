@@ -464,8 +464,10 @@ main {
 
 .because {
   position: relative;
+  width: 25vh;
   left: 1vw;
 }
+
 .wrapper img {
   margin-top: 5%;
   /* background: yellow; */
