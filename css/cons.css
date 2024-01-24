@@ -10,7 +10,7 @@
 /*ARTIGO 2*/
 .scroll{
     opacity: 1;
-    animation: fadeIn 2.5s forwards;
+    animation: fadeIn 1s forwards;
 }
 
 #artigo2{
