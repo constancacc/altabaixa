@@ -19,18 +19,26 @@
     right: 4vw;
     z-index: 1;
 }
+
+.teste {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background: orange; */
+    height: fit-content;
+}
 .img5-3 {
     width: 28vw;
-    position:absolute;
-    left: 2.5vw;
-    
+    position:relative;
+    left: -33vw;
     z-index: 1;
 }
 .img5-4 {
     width: 28vw;
-    position:absolute;
-    right: 25vw;
-    top: 83.3vw;
+    position:relative;
+    left: 20vw;
+    top: -13vh;
+    /* top: 83.3vw; */
 }
 .img6-1 {
     width: 40vw;
@@ -76,9 +84,15 @@
     line-height: normal;
 
 }
+.wrap {
+    margin-top: -15vh;
+    width: 100%;
+    margin-left: 25vw;
+}
 
 .texto-5{
     width: 50vw;
+    /* width: 50vw; */
     position:relative;
     z-index:2;
     text-align: left;
