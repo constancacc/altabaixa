@@ -152,7 +152,7 @@
                     <img src="img/linha.svg">
                 </div>
 
-                <div class="artigo1" style="margin-top: 5vh;">
+                <div class="artigo1 artigo2-2" style="margin-top: 5vh;">
 
 
                     <p class="texto"> For the first ten years of my career, I worked for Massimo Vignelli, a designer
@@ -164,7 +164,7 @@
 
                 </div>
 
-                <div class="artigo1" style="margin-top: 5vh;">
+                <div class="artigo1 artigo2-2" style="margin-top: 5vh;">
 
                     <p class="texto">For Massimo, this was an ideological choice, an ethical imperative. "In the new
                         computer age,"
@@ -184,7 +184,7 @@
 
                 </div>
 
-                <div class="artigo1" style="margin-top: 5vh;">
+                <div class="artigo1 artigo2-2" style="margin-top: 5vh;">
 
                     <p class="texto">Then, after a decade, I left my first job. Suddenly I could use any typeface I
                         wanted, and
@@ -200,7 +200,7 @@
                     </p>
                 </div>
 
-                <div class="artigo1" style="margin-top: 5vh;">
+                <div class="artigo1 artigo2-2" style="margin-top: 5vh;">
 
                     <p class="texto">Then, after a decade, I left my first job. Suddenly I could use any typeface I
                         wanted, and
@@ -216,7 +216,7 @@
                     </p>
                 </div>
 
-                <div class="artigo1" style="margin-top: 5vh;">
+                <div class="artigo1 artigo2-2" style="margin-top: 5vh;">
 
                     <p class="texto">It was true. Liberated from monogamy, I became typographically promiscuous. I have
                         since,
@@ -230,7 +230,7 @@
                     </p>
                 </div>
 
-                <div class="artigo1" style="margin-top: 5vh;">
+                <div class="artigo1 artigo2-2" style="margin-top: 5vh;">
                     <p class="subtitulo">Here are thirteen reasons.</p>
                 </div>
             
@@ -510,7 +510,7 @@
                 <img src="img/img1.svg" class="img1">
                 <img src="img/img2.svg" class="img2">
                 <h1 class="abstract">ABSTRACT,</h1>
-                <p class="texto-artigo2">
+                <p class="texto-artigo2 artigo2-2">
                     Type Design is a domain that multiple times has profited from the emergence of new tools and technologies. The transformation of type from physical to digital, the dissemination of font design software and the adoption of web typography make type design better known and more accessible. This domain has received an even greater push with the increasing adoption of generative tools to create more diverse and experimental fonts. Nowadays, with the application of Machine Learning to various domains, typography has also been influenced by it. In this work, we produce a dataset by extracting letter skeletons from a collection of existing fonts. Then we trained a Variational Autoencoder and a Sketch Decoder to learn to create these skeletons that can be used to generate new ones by exploring the latent space. This process also allows us to control the style of the resulting skeletons and interpolate between different characters. Finally, we developed new glyphs by filling the generated skeletons based on the original letters’ stroke width and showing some applications of the results.
                 </p>
                 <ul class="keywords">
@@ -524,35 +524,35 @@
             <!-- INTRODUCTION -->
             <div class="artigo2-1">
                 <img src="img/titleIntro.svg" style="position: relative; top:-10vh" />
-                <div class="bloco1">
+                <div class="bloco1 artigo2-2">
                     <p>
                         The design of type has undergone numerous changes over time [4]. In the early years, typography was seen as a system made up of a series of rules. The artistic movements that arrived at the beginning of the twentieth century rejected the historical forms and transformed outdated aspects of visual language and expression.
                     </p> 
                 </div>
                 <img src="img/intro1.svg" class="num1">
 
-                <div class="bloco2">
+                <div class="bloco2 artigo2-2">
                     <img src="img/INTRO.svg" class="intro">
                     <p>
                         However, projects that combined software, arts and design only appeared a few years later with the proliferation of personal computers, allowing programming to reach a wider audience. Thanks to all these changes, the tools to design type changed, and new possibilities for typographic experimentation appeared, resulting in (i) grammar-based techniques that explore the principle of database amplification (e.g. [2]); (ii) evolutionary systems that breed design solutions under the direction of a designer (e.g. [22, 15]); (iii) or even, Machine Learning (ML) systems that learn the glyphs features to build new ones (e.g. [14]) [18].
                     </p> 
                 </div>
 
-                <div class="bloco2">
+                <div class="bloco2 artigo2-2">
                     <img src="img/DUC.svg" class="duc">
                     <p>
                         These computational approaches can also be helpful as a starting point of inspiration. Most emerging fonts continue to be developed by type designers who study the shape of each letter and its design with great precision, despite the emergence of these new possibilities. Type design is a hugely complex discipline, and its expertise ensures typography quality [28]. Moreover, with the proliferation of web typography and online reading, the use of variable and dynamic fonts has increased, allowing more options for font designers and font users. Additionally, visual identities created nowadays are becoming more dynamic [17]. Museums, institutions, organisations, events and media increasingly rely on this type of identity.
                     </p> 
                 </div>
 
-                <div class="bloco2">
+                <div class="bloco2 artigo2-2">
                     <img src="img/TION.svg" class="tion">
                     <p>
                         Consequently, designers should adapt their work to these new possibilities by creating dynamic identities with animations and mutations. Even though new computer systems create expressive and out-of-the-box results, they do not have the knowledge of an expert. But this is also an advantage, allowing non-arbitrary exploitation that extends the range of possibilities. It is necessary to create a balance to take advantage of the computational systems and the expert labour. Moreover, most generative systems that design type focus on the letters’ filling and don’t see the structure of a glyph as a variation parameter.
                     </p> 
                 </div>
 
-                <div class="bloco3">
+                <div class="bloco3 artigo2-2">
                     <img src="img/image 2.svg" class="figure">
                     <div class="col-text">
                         To overcome these limitations, we propose an Autoregressive model [9] that creates new glyph skeletons by the interpolation of existing ones. Our skeleton-based approach uses glyphs skeletons of existing fonts as input to ensure the quality of the generated results. The division of the structure and the filling of the glyphs add variability to the results. <br><br><br>
@@ -560,7 +560,7 @@
                     </div>
                 </div>
 
-                <div class="bloco2">
+                <div class="bloco2 artigo2-2">
                     <p>
                         The remainder of this paper is divided into three sections. The following section, Related Work, analyzes related projects in the domain of computational typography with Artificial Neural Networks (ANNs). The second section, Approach, describes the construction of the used dataset and explains the training process. Then, in the Results section, we present and discuss the different exper- imentations performed and the obtained results. In this section, we also present a set of different possible applications of the outputs of our system. In the final section, Conclusion and Discussion, we draw some conclusions and lay out future work.
                     </p> 
@@ -577,9 +577,9 @@
                 </div>
 
                 <!-- ARTIGO 2 - 2 -->
-                <div class="artigo2-2 sub2">
+                <div class="artigo2-2 test sub2">
 
-                    <div class="artigo2-2 texto2">
+                    <div class="artigo2-2 test texto2">
                         <img id="RE" class="animation2" src="img/artigo2/RE.svg">
 
                         <p class="cut-text"> Over time, the methods and technologies available for type design have improved and designers have 
@@ -589,7 +589,7 @@
                         </p>
                     </div>
 
-                    <div class="artigo2-2" style="margin-top: 5vh;">
+                    <div class="artigo2-2 test" style="margin-top: 5vh;">
 
                         <p class="texto2" style=" z-index: 3;"> The framework uses a manifold learning technique that allows for interactively improving the
                             fit quality and interpolating, adding or removing stylistic elements in existing fonts. Campbell and 
@@ -603,7 +603,7 @@
                         <img id="dois" class="animation4" src="img/artigo2/2.svg">
                     </div>
 
-                    <div class="artigo2-2" style="margin-top: 5vh;">
+                    <div class="artigo2-2 test" style="margin-top: 5vh;">
                         <p class="texto2" style="z-index:2; position: relative;">Rehling and Hofstadter [21] use one or more grid-based lowercase letters to generate the rest of the Roman
                             alphabet, creating glyphs that share different style features. Azadi et al. [1] develop an end-to-end
                             stacked conditional GAN model to generate a set of highly-stylised glyph images following a consistent
@@ -612,7 +612,7 @@
                         <img id="TED" class="animation2" src="img/artigo2/TED.svg">
                     </div>
 
-                    <div class="artigo2-2" style="margin-top: 5vh;">
+                    <div class="artigo2-2 test" style="margin-top: 5vh;">
                         <p class="texto2">We can also imitate the behaviour of a variable font using Recurrent Neural Networks (RNNs)
                             and interpolate to obtain intermediate results. Lopes et al. [14] model the drawing process of fonts by
                             building sequential generative models of vector graphics. Their model provides a scale-invariant
@@ -623,7 +623,7 @@
                         </p>
                     </div>
 
-                    <div class="artigo2-2" style="margin-top: 5vh;">
+                    <div class="artigo2-2 test" style="margin-top: 5vh;">
                         <p class="texto2" style="z-index:2; position: relative;">By changing the glyph parameters they create several family instances.
                             Also, outside the typographic field, there are some good examples exploring the latent space. 
                             Sketch-RNN [7] is an RNN able to construct stroke-based drawings. The network produces sketches of
@@ -645,9 +645,9 @@
                 
                 
                 <!-- ARTIGO 2 - 3 -->
-                <div class="artigo2-2 sub3">
+                <div class="artigo2-2 test sub3">
                 
-                    <div class="artigo2-2 texto2" style="margin-top: 20vh;" >
+                    <div class="artigo2-2 test texto2" style="margin-top: 20vh;" >
 
                         <p class="cut-text" style=" background-color: white; z-index: 3;"> In this section, we present the developed model that generates new letter skeletons by 
                             interpolating existing ones. This process allows us to control the style of the resulting font by 
@@ -661,7 +661,7 @@
                         <img id="ACH" class="animation3" src="img/artigo2/ACH.svg">
                     </div>
 
-                    <div class="artigo2-2" style="margin-top: 30vh;">
+                    <div class="artigo2-2 test" style="margin-top: 30vh;">
 
                         <img class="subtitulo2" src="img/artigo2/data.svg">
 
@@ -678,7 +678,7 @@
 
                     </div>
 
-                    <div class="artigo2-2" style="margin-top: 10vh;">
+                    <div class="artigo2-2 test" style="margin-top: 10vh;">
                         <img class="subtitulo2" src="img/artigo2/network_architecture.svg">
 
                         <p class="texto2" >After selecting the fonts, we remained with 2623 
@@ -696,7 +696,7 @@
                     
                     </div>
 
-                    <div class="artigo2-2" style="margin-top: 5vh;">
+                    <div class="artigo2-2 test" style="margin-top: 5vh;">
                         <p class="texto2">The proposed model consists of a Conditional Variational Autoencoder (VAE) [11] and an 
                             Autoregressive sketch decoder. We used a VAE instead of a regular AE to allow us to manipulate the 
                             latent vectors more easily. The output of the VAE are the parameters of distribution instead of vectors 
@@ -709,7 +709,7 @@
                         </p>
                     </div>
 
-                    <div class="artigo2-2" style="margin-top: 5vh; display: flex; column-count: 2; column-gap: 8vw;">
+                    <div class="artigo2-2 test" style="margin-top: 5vh; display: flex; column-count: 2; column-gap: 8vw;">
                         <p class="texto2" style="width: 21vw">Figure 2 shows a diagram of the architecture used. In summary, the encoder employs a 
                             Convolutional Neural Network (CNN) that processes the greyscale images and encodes them into two 64-D 
                             latent vectors which consist of a set of means (μ) and standard deviations (σ) of a Gaussian 
@@ -736,7 +736,7 @@
 
                     </div>
 
-                    <div class="artigo2-2" style="margin-top: 5vh;">
+                    <div class="artigo2-2 test" style="margin-top: 5vh;">
                         <p class="texto2">Finally, we render the produced path in a canvas as a greyscale image
                             that is compared with the original image. Although the standard VAE works at the pixel level, the 
                             output of our sketch decoder is a sequence of points, thus allow- ing the generation of scalable vector
@@ -765,7 +765,7 @@
                     <img src="img/titleResults.svg">
                 </div>
 
-                <div class="artigo2-4">
+                <div class="artigo2-4 artigo2-2">
                     <img class="imgTitles" src="img/4grande.svg" style="margin-top: -5vh; margin-right: 75vw;" />
                     <img class="imgTitles" src="img/RE.svg" style="margin-right: 119vh;" />
 
@@ -784,7 +784,7 @@
                     <img src="img/4.1.svg" style="margin-top: 5vh;">
                 </div>
 
-                <div class="artigo2-4">
+                <div class="artigo2-4 artigo2-2">
                     <p class="textoArt2">
                         As mentioned before, the model returns a sequence of points that, when connected, create a
                         reconstruction of
@@ -803,7 +803,7 @@
                         the letter very quickly in comparison with others.
                     </p>
                 </div>
-                <div class="artigo2-4">
+                <div class="artigo2-4 artigo2-2">
                     <p class="textoArt2">
                         Figure 3 presents a comparison between the original inputs and the reconstructed skeletons using a
                         single stroke.
@@ -951,7 +951,7 @@
                     <img src="img/4.2.svg">
                 </div>
 
-                <div class="artigo2-4">
+                <div class="artigo2-4 artigo2-2">
                     <p class="texto2Art2">
                         To understand if the trained model can learn a latent representation for the different letters that
                         is smooth and interpretable, we need to visualise the 64-dimensional z vectors for the dataset. So
@@ -1013,7 +1013,7 @@
                     <img src="img/4.3.svg">
                 </div>
 
-                <div class="artigo2-4">
+                <div class="artigo2-4 artigo2-2">
                     <p class="textoArt2">
                         After analysing whether the latent space translates font characteristics for meaningful latent
                         representation,
@@ -1099,7 +1099,7 @@
                         <img src="img/letters/t13.svg" style="margin-top: -40vh; margin-left: 10vh" />
                     </div>
                 </div>
-                <div class="artigo2-4">
+                <div class="artigo2-4 artigo2-2">
                     <p class="textoArt2">
                         The results show that the model is not only able to decode meaningful skeletons but it is also able
                         to
@@ -1109,7 +1109,7 @@
                     </p>
                 </div>
 
-                <div class="artigo2-4">
+                <div class="artigo2-4 artigo2-2">
                     <p class="texto2Art2">
                         As it is possible to observe in the interpolations presented in Figure 6, not only the model is able
                         to decode meaningful skeletons but it is able to control several characteristics of it. In the
@@ -1321,7 +1321,7 @@
 
             </div>
 
-            <div class="artigo2-4">
+            <div class="artigo2-4 artigo2-2">
                 <p class="textoArt2">
                     So far, we have demonstrated how our system is able to reconstruct and create new skeletons through
                     the exploration of latent space. However, our goal is to develop a tool to support the design
@@ -1330,7 +1330,7 @@
                 </p>
             </div>
 
-            <div class="artigo2-4">
+            <div class="artigo2-4 artigo2-2">
                 <p class="texto2Art2">
                     As mentioned before, the skeleton extraction library [16] allows, in addition to extracting the
                     points, obtaining the stroke width at each point of the skeleton. When we created the dataset, by
@@ -1420,7 +1420,7 @@
                 <img src="img/4.3.svg">
             </div>
 
-            <div class="artigo2-4">
+            <div class="artigo2-4 artigo2-2">
                 <p class="textoArt2">
                     As mentioned before, our system provides a tool to facilitate the process of building these dynamic
                     identities with a typographic component. With this tool, designers can generate skeletons and
@@ -1461,7 +1461,7 @@
                     <img src="img/titleConResult.svg">
                 </div>
 
-            <div class="artigo2-1">
+            <div class="artigo2-1 artigo2-2">
                 <div class="bloco2" style="margin-top:-12vh;">
                     <img class="img5-1" src="img/5-conclu.svg">
 
@@ -1475,7 +1475,7 @@
             
                 </div>
 
-                <div class="bloco2" style="position: relative">
+                <div class="bloco2" style="position: relative artigo2-2">
                     <img class="img5-2" src="img/5-sion.svg">
                     
                         <p class="texto-5">We propose a VAE combined with an Autoregressive model to generate glyphs’ skeletons by interpolating existing ones.
@@ -1488,7 +1488,7 @@
                     
                 </div>
             
-                <div class="bloco2" style="position:relative;">
+                <div class="bloco2 artigo2-2" style="position:relative;">
                     
                         <img class="img5-3" src="img/5-discu.svg">
                 
@@ -1508,7 +1508,7 @@
                         <img src="img/titleAcknow.svg" />
                     </div>
 
-                    <div class="artigo2-1"  style="margin-top: 0;">
+                    <div class="artigo2-1 artigo2-2"  style="margin-top: 0;">
                         <div class="bloco2" style="position:relative">
                             <img class="img6-1" src="img/6-acknow.svg">
                     

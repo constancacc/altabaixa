@@ -24,18 +24,19 @@
 }
 
 .artigo2-2{
+    opacity:0;
+}
+
+.test {
     color: #000;
     font-family: 'Source Sans 3', sans-serif;
     font-weight: 500;
     font-size: 1.25rem;
     flex-shrink: 0;
-
     width: 50vw;
     position: relative;
-    opacity:0;
-    
+    /* opacity: 0; */
 }
-
 .texto2{
     width: 50.5vw;
     background-color: white;
