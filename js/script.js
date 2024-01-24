@@ -48,7 +48,23 @@ window.addEventListener('scroll', function() {
 });
 
 
+/* BOTÕES */
 
+function mostrarArtigo(id) {
+  // Oculta todos os artigos
+  var artigos = document.querySelectorAll('.art');
+  artigos.forEach(function(artigo) {
+    artigo.style.visibility = 'hidden';
+    artigo.style.opacity = 0;
+    artigo.style.height = '0';
+  });
+
+  // Mostra o artigo clicado
+  var artigoSelecionado = document.getElementById(id);
+  artigoSelecionado.style.visibility = 'visible';
+  artigoSelecionado.style.opacity = 1;
+  artigoSelecionado.style.height = 'auto';
+}
 
 
 

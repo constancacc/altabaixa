@@ -9,6 +9,22 @@ main {
   position: relative;
   height: fit-content;
 }
+
+.art {
+  position: absolute; /* Altera a posição para absolute */
+  visibility: hidden; /* Inicia oculto */
+  opacity: 0; /* Inicia com opacidade 0 */
+  height: 0; /* Define a altura como 0 */
+  overflow: hidden; /* Oculta qualquer conteúdo que possa transbordar */
+  transition: opacity 0.5s, height 0.5s; /* Adiciona transição para opacity e height */
+}
+#artigo1 {
+  position: static; /* Mantém o artigo 1 no fluxo normal do documento */
+  visibility: visible; /* Inicia visível */
+  opacity: 1; /* Inicia com opacidade 1 */
+  height: auto; /* Define a altura de volta para 'auto' quando visível */
+}
+
 /*-----------------------------ecrã inicial-----------------------------*/
 #alta {
   position: relative;
@@ -101,7 +117,7 @@ main {
 
     background-color:rgba(255, 255, 255, 0.4);
     height: 5vh;
-    z-index: 2;
+    z-index: 5;
 
 
   justify-content: center;

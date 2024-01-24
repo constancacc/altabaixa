@@ -127,13 +127,13 @@
         </div>
         <!-- ESCOLHA DE ARTIGOS -->
         <div id="escolha_container">
-            <a class="artigo" id="btn1" href="#artigo1"> Artigo 1</a>
+            <a class="artigo" onclick="mostrarArtigo('artigo1')" href="#artigo1"> Artigo 1</a>
             <span> | </span>
-            <a class="artigo" id="btn2" href="#2artigo"> Artigo 2</a>
+            <a class="artigo" onclick="mostrarArtigo('2artigo')" href="#2artigo"> Artigo 2</a>
         </div>
 
         <!-- ARTIGO 1-->
-        <div id="artigo1" class="row">
+        <div id="artigo1" class="row art">
                 <div class="artigo1">
                     <img src="img/artigo1.svg" class="titulo">
                 </div>
@@ -434,13 +434,45 @@
                 </div>
 
             </div>
+
+            <footer class="footer">
+       
+                <div class="footer1">
+                    <p style="font-weight: 600;">
+                        Edição MDM | FCTUC
+                   </p>
+                   <p>
+                        2023/2024
+    
+                    </p>
+                    <img src="img/abfooter.svg" style="position: relative; margin-top: 2.5vh; width: 40%;"/>
+                </div>
+    
+                <div class="footer2">
+                    <p >
+                        Design
+                        </p>
+                        <p style="font-weight: 600;">
+                        <br>
+                        Ana Rodrigues
+                        <br>
+                        Alexandra Cordeiro
+                        <br>
+                        Constança Correia
+                        <br>
+                        Sara Martins
+                    </p>
+                </div>
+           
+        </footer>
+
         </div>
 
         <!-- ARTIGO 2-->
-        <div id="2artigo">
+        <div id="2artigo" class="art" style="width: 100vw;">
             <!--ARTIGO 2 CAPA -->
             <div class="capa">
-                <img src="../img/capa.svg" class="artigo2-capa animate__animated animate__fadeIn">
+                <img src="../img/capa.svg" class="artigo2-capa animate__animated animate__fadeIn" style="overflow-x: hidden">
                 <p class="text1 animate__animated animate__fadeInLeft" id="nameAnimation">
                     {jparente,<br>
                     lgoncalo,<br>
@@ -1484,40 +1516,41 @@
                     </div>
                 
             </div>
+            <footer class="footer">
+       
+                <div class="footer1">
+                    <p style="font-weight: 600;">
+                        Edição MDM | FCTUC
+                   </p>
+                   <p>
+                        2023/2024
+    
+                    </p>
+                    <img src="img/abfooter.svg" style="position: relative; margin-top: 2.5vh; width: 40%;"/>
+                </div>
+    
+                <div class="footer2">
+                    <p >
+                        Design
+                        </p>
+                        <p style="font-weight: 600;">
+                        <br>
+                        Ana Rodrigues
+                        <br>
+                        Alexandra Cordeiro
+                        <br>
+                        Constança Correia
+                        <br>
+                        Sara Martins
+                    </p>
+                </div>
+           
+        </footer>
         </div>  
 
     </main>
     
-    <footer class="footer">
-       
-            <div class="footer1">
-                <p style="font-weight: 600;">
-                    Edição MDM | FCTUC
-               </p>
-               <p>
-                    2023/2024
 
-                </p>
-                <img src="img/abfooter.svg" style="position: relative; margin-top: 2.5vh; width: 40%;"/>
-            </div>
-
-            <div class="footer2">
-                <p >
-                    Design
-                    </p>
-                    <p style="font-weight: 600;">
-                    <br>
-                    Ana Rodrigues
-                    <br>
-                    Alexandra Cordeiro
-                    <br>
-                    Constança Correia
-                    <br>
-                    Sara Martins
-                </p>
-            </div>
-       
-    </footer>
 
     <script src="js/script.js"></script> <!-- Aceder ao JS-->
 </body>
