@@ -9,7 +9,7 @@
 .img5-1 {
   position: absolute;
   left: 10vw;
-  top: -5vh;
+  top: -7vh;
 
   animation: slide-in-from-right 2.5s forwards;
 }
@@ -33,7 +33,7 @@
 .img5-3 {
     width: 28vw;
     position:absolute;
-    top:-8vh;
+    top:-10vh;
     left: 2vw;
     z-index: 1;
 }
@@ -41,24 +41,24 @@
     width: 28vw;
     position:absolute;
     right:0;
-    bottom: -13vh;
+    bottom: -20vh;
     z-index: 1;
     /* top: 83.3vw; */
 }
 .img6-1 {
     width: 40vw;
     position:absolute;
-    margin-left: 2vw;
- 
+    margin-left: 2.5vw;
+    top: -2vh;
     z-index: 1;
 }
 
 .img6-2 {
     width: 48vw;
     position:absolute;
-    right: -16vw;
+    right: -25vw;
     bottom: -13vh;
-    z-index: 1;
+    z-index: 2;
 }
 
 
