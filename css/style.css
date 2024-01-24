@@ -140,11 +140,13 @@ main {
 
 
   margin:auto;
-  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .artigo:hover {
-  color: red;
+  color: #C92B1D;
 }
 
 @keyframes fadeIn {

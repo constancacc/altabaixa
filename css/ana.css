@@ -24,7 +24,7 @@
     position: absolute;
 
     margin-left: 8vh;
-    
+
   }
   
   .numbers{
@@ -172,3 +172,30 @@
     margin-top: 2.5vh;
     margin-left: 2.5vh;
   }
+
+
+
+
+
+
+  .scroll-top {   /* Button that scrolls to the beginning of the page */
+    position:absolute; 
+    top:50vh;  
+    bottom:3rem;  
+    right:1.3rem; 
+}
+.scroll-top_link{
+    position: sticky; 
+    top:90vh;  
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    background-color: #000000;
+    padding:10px;
+    opacity:.7;
+    scroll-behavior:smooth;
+
+}
+.scroll-top_link:hover {
+    opacity:initial;
+}
