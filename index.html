@@ -1411,7 +1411,7 @@
     </div>
     
 <!-- SARA -->
-        <div style="position: relative;">
+    <div style="position: relative;">
 
             <!-- 5 -->
             <div class="legenda-titulo" style="margin-top: 10vh;">
@@ -1419,73 +1419,67 @@
                 <p class="tituloArtigo2">Conclusion and Discussion</p>
             </div>
 
-            <div >
+        <div class="artigo2-1">
+            <div class="bloco2" style="margin-top:-12vh;">
                 <img class="img5-1" src="img/5-conclu.svg">
-            </div>
-            
-            <div class="textArtigo2" style="margin-top: 30vh;">
+
                 <p class="introTexto"> Since its emergence, type design has been adapting to technological advances. Nowadays,
                     most typefaces are developed by type designers, who study the design and anatomy of each character with great precision. 
                     Type design is a difficult and time-consuming process. Our approach takes advantage of the knowledge present in the design 
                     of a typeface and the computational possibilities that ANNs provide. 
                 </p>
+
+                
+           
             </div>
 
-            <div >
+            <div class="bloco2" style="position: relative">
                 <img class="img5-2" src="img/5-sion.svg">
-            </div>
-
-            <div class="textArtigo2" style="margin-top: 5vh;">
-                <p class="texto-5">We propose a VAE combined with an Autoregressive model to generate glyphs’ skeletons by interpolating existing ones.
-                    Our contributions are the following, a sketch decoder capable of (i) reconstructing images of glyphs’ skeletons using a single 
-                    stroke, (ii) controlling font styles by navigating the latent space, (iii) interpolating between two skeletons to create new ones. 
-                    By creating interpolations between existing fonts we develop a method to help designers in making their artificial variable fonts, 
-                    easing the usual glyph production. We also explored a feature of a skeleton extraction library, which calculates the stroke width at each point of the letter skeleton, to produce a 
-                    fill for the generated skeletons. By interpolating between skeletons of different letters we are creating new glyph forms that resemble other existing glyphs. This opens up new exploration possibilities for the future. We envision that our approach can find use as a tool for graphic designers to facilitate font design. We can employ this system to generate new skeletons, which the designer can fill with the desired style, but also be used as inspiration seed to create new glyphs.
-                </p>
-            </div>
-
-            <!-- <div >
-                <img class="img5-3" src="img/5-discu.svg">
-            </div> -->
-
-            <div class="textArtigo2 teste" style="margin-top: 8vh;">
-                <img class="img5-3" src="img/5-discu.svg">
-                <div class="wrap">
-                    <p class="texto-5">We expect to make several future contributions. First, we want to change the architecture of the sketch decoder to be able to use multiple strokes. In some cases, our 
-                        approach was able to draw skeleton letters that require more than one line by overlapping them. However, if the sketch decoder had access to multiple strokes, this problem 
-                        could be solved more easily. Finally, we intend to change the input of the network so it can receive a vector version of the skeletons instead of a 
-                        pixel-based image. This way we can work with an end-to-end architecture focused on vector format leading to better quality skeletons without any loss 
-                        of information.
+                
+                    <p class="texto-5">We propose a VAE combined with an Autoregressive model to generate glyphs’ skeletons by interpolating existing ones.
+                        Our contributions are the following, a sketch decoder capable of (i) reconstructing images of glyphs’ skeletons using a single 
+                        stroke, (ii) controlling font styles by navigating the latent space, (iii) interpolating between two skeletons to create new ones. 
+                        By creating interpolations between existing fonts we develop a method to help designers in making their artificial variable fonts, 
+                        easing the usual glyph production. We also explored a feature of a skeleton extraction library, which calculates the stroke width at each point of the letter skeleton, to produce a 
+                        fill for the generated skeletons. By interpolating between skeletons of different letters we are creating new glyph forms that resemble other existing glyphs. This opens up new exploration possibilities for the future. We envision that our approach can find use as a tool for graphic designers to facilitate font design. We can employ this system to generate new skeletons, which the designer can fill with the desired style, but also be used as inspiration seed to create new glyphs.
                     </p>
-                </div>
-                <img class="img5-4" src="img/5-ssion.svg">
+                
             </div>
-            <!-- <div >
-                <img class="img5-4" src="img/5-ssion.svg">
-            </div> -->
+         
+            <div class="bloco2" style="position:relative;">
+                
+                    <img class="img5-3" src="img/5-discu.svg">
+            
+                        <p class="texto-5" style="background:none">We expect to make several future contributions. First, we want to change the architecture of the sketch decoder to be able to use multiple strokes. In some cases, our 
+                            approach was able to draw skeleton letters that require more than one line by overlapping them. However, if the sketch decoder had access to multiple strokes, this problem 
+                            could be solved more easily. Finally, we intend to change the input of the network so it can receive a vector version of the skeletons instead of a 
+                            pixel-based image. This way we can work with an end-to-end architecture focused on vector format leading to better quality skeletons without any loss 
+                            of information.
+                        </p>
+                    <img class="img5-4" src="img/5-ssion.svg">
+                
+            </div>
 
+        </div>
              <!-- 6 -->
-             <div style="position: relative; height: 50vh">
+             
                 <div class="legenda-titulo" style="margin-top: 30vh;">
                     <img src="img/linhaVerm.svg">
                     <p class="tituloArtigo2">Acknowledgments</p>
                 </div>
 
-                <div  style="margin-top: 5vh;">
-                    <img class="img6-1" src="img/6-acknow.svg">
-                </div>
+                <div class="artigo2-1"  style="margin-top: 0;">
+                    <div class="bloco2" style="position:relative">
+                        <img class="img6-1" src="img/6-acknow.svg">
                 
-                <div class="textArtigo2" style="margin-top: 19vh;">
-                    <p class="texto-5"> This work is partially funded by national funds through the FCT - Foundation for Science and Technology, 
-                        I.P., within the scope of the project CISUC - UID/CEC/00326/2020 and by European Social Fund, through the Regional Operational Program Centro 2020, and under the grant SFRH/BD/148706/2019.
-                    </p>
+                        <p class="texto-5" style="margin-top: 13vh; background: none;"> This work is partially funded by national funds through the FCT - Foundation for Science and Technology, 
+                            I.P., within the scope of the project CISUC - UID/CEC/00326/2020 and by European Social Fund, through the Regional Operational Program Centro 2020, and under the grant SFRH/BD/148706/2019.
+                        </p>
+                
+                        <img class="img6-2" src="img/6-ledgments.svg">
+                    </div>
                 </div>
-                <div  style="margin-top: -34vh;">
-                    <img class="img6-2" src="img/6-ledgments.svg">
-                </div>
-        
-            </div>
+            
         </div>
        
     </main>
