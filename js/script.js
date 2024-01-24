@@ -62,6 +62,8 @@ function SlideShow() {
 // If you want to stop the slideshow, you can use clearInterval like this:
 // clearInterval(slideInterval);
 
+
+
 document.addEventListener("DOMContentLoaded", function() {
   var images = document.querySelectorAll('.image-container1');
 

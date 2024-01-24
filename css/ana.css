@@ -70,7 +70,7 @@
     position: relative;
     margin-top: 20vh;
     margin-left: 50%;
-    animation: floatAnimation3 5s ease-in-out infinite alternate; 
+    animation: floatAnimation 5s ease-in-out infinite alternate; 
   }
   
   .imagesLetters2{
@@ -78,7 +78,7 @@
     position: relative;
     margin-top: 20vh;
     margin-left: 50%;
-    animation: floatAnimation4 5s ease-in-out infinite alternate; 
+    animation: floatAnimation2 5s ease-in-out infinite alternate; 
   }
   
   .container3 {
@@ -139,28 +139,13 @@
     }
   }
 
-  @keyframes floatAnimation3 {
-    from {
-        transform: translate(-50%, -50%) translateY(0); 
-    }
-    to {
-        transform: translate(-50%, -50%) translateY(-20px);
-    }
-  }
   
-  @keyframes floatAnimation4 {
-    from {
-        transform: translate(-50%, -50%) translateY(-20px); 
-    }
-    to {
-        transform: translate(-50%, -50%) translateY(0); 
-    }
-  }
 
   .footer{
     display: flex;
     width: 100%;
     height: 20vh;
+    margin-top: 20vh;
     background-color: #000;
     color:#fff;
     justify-content: center;
