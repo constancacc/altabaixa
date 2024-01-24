@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function() {
           if (isElementInViewport(image)) {
               setTimeout(function() {
                   image.classList.add('visible');
-              }, index * 200); 
+              }, index * 100); 
           }
       });
   }
