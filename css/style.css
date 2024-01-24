@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     --intro-height: 15vh;
-    --img-height: 70vh;
+    --img-height: 60vh;
 }
 
 main {
@@ -141,7 +141,7 @@ main {
 
   margin:auto;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: underline;
 }
 

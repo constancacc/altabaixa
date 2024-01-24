@@ -148,6 +148,7 @@
     display: flex;
     width: 100%;
     margin-top: 20vh;
+    padding-bottom: 2vw;
    /*  height: 30vh; */
     margin-bottom: 0;
     background-color: #000;
@@ -179,10 +180,11 @@
 
 
   .scroll-top {   /* Button that scrolls to the beginning of the page */
-    position:absolute; 
-    top:50vh;  
+    position:fixed; 
+   
     bottom:3rem;  
     right:1.3rem; 
+    z-index: 5;
 }
 .scroll-top_link{
     position: sticky; 
@@ -196,6 +198,13 @@
     scroll-behavior:smooth;
 
 }
+
+.scroll-top{
+  position: fixed;
+  top: 0;
+}
+
 .scroll-top_link:hover {
     opacity:initial;
+
 }
