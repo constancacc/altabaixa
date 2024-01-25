@@ -49,7 +49,6 @@ window.addEventListener('scroll', function() {
 
 
 /* BOTÕES */
-
 function mostrarArtigo(id) {
   // Oculta todos os artigos
   var artigos = document.querySelectorAll('.art');
@@ -64,6 +63,19 @@ function mostrarArtigo(id) {
   artigoSelecionado.style.visibility = 'visible';
   artigoSelecionado.style.opacity = 1;
   artigoSelecionado.style.height = 'auto';
+}
+
+/*mudar font-weight dos botoes*/
+function selecionarArtigo(elemento) {
+
+  // Remove a classe de todos os elementos com a classe "artigo"
+  var elementosArtigo = document.querySelectorAll('.artigo');
+  elementosArtigo.forEach(function (el) {
+    el.classList.remove('seleciona-artigo');
+  });
+
+  // Adiciona a classe ao elemento clicado
+  elemento.classList.add('seleciona-artigo');
 }
 
 /*botão para o topo*/

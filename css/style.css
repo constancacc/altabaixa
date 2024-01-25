@@ -24,7 +24,9 @@ main {
   opacity: 1; /* Inicia com opacidade 1 */
   height: auto; /* Define a altura de volta para 'auto' quando visível */
 }
-
+.seleciona-artigo{
+  font-weight: bolder;
+}
 /*-----------------------------ecrã inicial-----------------------------*/
 #alta {
   position: relative;
@@ -138,10 +140,9 @@ main {
   font-family: 'Source Sans 3', sans-serif;
   color: black;
 
-
   margin:auto;
   font-size: 30px;
-  font-weight: 500;
+  
   text-decoration: underline;
 }
 
