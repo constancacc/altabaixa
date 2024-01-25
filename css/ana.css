@@ -196,12 +196,6 @@
     padding:10px;
     opacity:.7;
     scroll-behavior:smooth;
-
-}
-
-.scroll-top{
-  position: fixed;
-  top: 0;
 }
 
 .scroll-top_link:hover {

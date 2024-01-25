@@ -66,7 +66,30 @@ function mostrarArtigo(id) {
   artigoSelecionado.style.height = 'auto';
 }
 
+/*botão para o topo*/
+function scrollToTop() {
+  const startingY = window.pageYOffset;
+  const targetY = 0;
+  const distance = targetY - startingY;
+  const duration = 1000; // Tempo em milissegundos
 
+  let start_time;
+
+  window.requestAnimationFrame(function step(currentTime) {
+      if (!start_time) {
+          start_time = currentTime;
+      }
+
+      const elapsed_time = currentTime - start_time;
+      const progress = Math.min(elapsed_time / duration, 1);
+
+      window.scrollTo(0, startingY + distance * progress);
+
+      if (elapsed_time < duration) {
+          window.requestAnimationFrame(step);
+      }
+  });
+}
 
 var slidePosition = 1;
 var intervalTime = 3000; // tempo para mudar
